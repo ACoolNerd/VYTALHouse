@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "tsc --noEmit --pretty false",
     "typecheck": "tsc --noEmit --pretty false",
-    "validate": "npm run lint && npm run typecheck && npm run build",
+    "smoke": "node tools/smoke-check.mjs",
+    "validate": "npm run lint && npm run typecheck && npm run build && npm run smoke",
     "build:artifacts": ".venv/bin/python3 tools/build_documents.py && node tools/build_workbook.mjs && node tools/build_deck.mjs",
     "quality": ".venv/bin/python3 tools/verify_quality.py",
     "visual": "node tools/visual_check.mjs"
