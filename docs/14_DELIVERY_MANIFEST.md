@@ -3,6 +3,9 @@
 ## Generated
 - Numbered docs package (including SBA 7(a) loan preparation, SBA 8(a) certification, Micro-grants, ownership & formation stack, and operations & compliance stack).
 - Next/Firebase MVP scaffold with a newly added custom Ownership Dashboard.
+- Local role login and command portal for project-ready review.
+- Target location record for 6000 Merriweather Drive, Columbia, MD 21044.
+- Firebase and Google Cloud readiness manifest.
 - Seed data.
 - Firebase rules and indexes.
 - Notion importables.
@@ -27,7 +30,7 @@
 ## Verification
 Final verification evidence is written to `quality/QUALITY_GATE.md` after the verification script runs.
 GitHub handoff evidence is written to `quality/GITHUB_MANIFEST.md`.
-Visual runtime evidence is written to `quality/VISUAL_CHECK.md` after the screenshot check runs.
+Visual runtime evidence is written to `quality/VISUAL_CHECK.md` after the screenshot check runs, including portal login coverage.
 
 ## External State
-No live workspace creation, vendor email send, payment activation, legal filing, or GitHub push was performed.
+No live workspace creation, Google Cloud resource creation, Firebase resource creation, vendor email send, payment activation, protected health intake, or legal filing was performed.

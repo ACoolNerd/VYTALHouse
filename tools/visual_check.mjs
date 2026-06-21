@@ -6,7 +6,19 @@ const baseUrl = process.env.VYTAL_BASE_URL ?? "http://127.0.0.1:3001";
 const outDir = path.resolve("quality/screenshots");
 await fs.mkdir(outDir, { recursive: true });
 
-const routes = ["/", "/services", "/memberships", "/facility", "/member", "/admin", "/vendor"];
+const routes = [
+  "/",
+  "/services",
+  "/memberships",
+  "/facility",
+  "/member",
+  "/admin",
+  "/vendor",
+  "/login",
+  "/portal",
+  "/docs/project-ready-goals",
+  "/docs/concept-to-creation-manifest",
+];
 const browser = await chromium.launch();
 
 async function checkViewport(name, viewport) {
@@ -44,6 +56,14 @@ await formPage.waitForSelector("text=Inquiry captured locally by the prototype A
 await formPage.screenshot({ path: path.join(outDir, "lead-form-submitted.png"), fullPage: true });
 await formPage.close();
 
+const portalPage = await browser.newPage({ viewport: { width: 1440, height: 1000 } });
+await portalPage.goto(`${baseUrl}/portal`, { waitUntil: "networkidle" });
+await portalPage.fill("#demoCode", "VYTAL-ADMIN");
+await portalPage.click("button[type='submit']");
+await portalPage.waitForSelector("text=Project Ready Dashboard", { timeout: 10000 });
+await portalPage.screenshot({ path: path.join(outDir, "portal-dashboard.png"), fullPage: true });
+await portalPage.close();
+
 await browser.close();
 
 const failures = [...desktopFailures, ...mobileFailures];
@@ -54,6 +74,7 @@ const report = [
   `- Desktop screenshot: quality/screenshots/home-desktop.png`,
   `- Mobile screenshot: quality/screenshots/home-mobile.png`,
   `- Lead form screenshot: quality/screenshots/lead-form-submitted.png`,
+  `- Portal screenshot: quality/screenshots/portal-dashboard.png`,
   `- Status: ${failures.length === 0 ? "PASS" : "FAIL"}`,
   "",
   "## Failures",

@@ -97,7 +97,7 @@ export default function OwnershipPage() {
             </p>
           </div>
           <div className="card">
-            <p className="eyebrow" style={{ color: "var(--lavender)" }}>Founding Principal & VP</p>
+            <p className="eyebrow" style={{ color: "var(--green)" }}>Founding Principal & VP</p>
             <h3>Chauncey Gardner</h3>
             <div className="stat">50%</div>
             <p className="muted" style={{ marginTop: 8 }}>

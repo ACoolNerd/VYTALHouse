@@ -12,10 +12,17 @@ REQUIRED_ARTIFACTS = [
     "docs/00_OVERVIEW_INDEX.md",
     "docs/14_DELIVERY_MANIFEST.md",
     "docs/15_GITHUB_HANDOFF.md",
+    "docs/21_PROJECT_READY_GOALS.md",
+    "docs/22_FIREBASE_GOOGLE_CLOUD_MANIFEST.md",
+    "docs/23_DESKTOP_DOWNLOADS_IMPORT_AUDIT.md",
+    "docs/24_CONCEPT_TO_CREATION_MANIFEST.md",
+    "DESIGN.md",
     ".github/workflows/vytal-quality.yml",
     ".github/PULL_REQUEST_TEMPLATE.md",
     ".github/ISSUE_TEMPLATE/feature_request.md",
     ".github/ISSUE_TEMPLATE/governance_review.md",
+    ".firebaserc.example",
+    "firebase.json",
     "deliverables/VYTAL_House_Full_Manifest_Dossier.docx",
     "deliverables/VYTAL_House_Business_Plan.docx",
     "deliverables/VYTAL_House_Business_Requirements_Document.docx",
@@ -26,10 +33,15 @@ REQUIRED_ARTIFACTS = [
     "importables/figma/vytal_tokens.json",
     "firebase/firestore.rules",
     "src/app/page.tsx",
+    "src/app/login/page.tsx",
+    "src/app/portal/page.tsx",
+    "src/app/api/session/route.ts",
     "quality/VISUAL_CHECK.md",
+    "quality/DOCX_RENDER_QA.md",
     "quality/screenshots/home-desktop.png",
     "quality/screenshots/home-mobile.png",
     "quality/screenshots/lead-form-submitted.png",
+    "quality/screenshots/portal-dashboard.png",
 ]
 SEED_FILES = [
     "data/seeds/services.json",
@@ -39,6 +51,11 @@ SEED_FILES = [
     "data/seeds/bookings.json",
     "data/seeds/auditEvents.json",
     "data/seeds/qualityScores.json",
+    "data/seeds/locations.json",
+    "data/seeds/launchGoals.json",
+    "data/seeds/riskRegister.json",
+    "data/seeds/integrationReadiness.json",
+    "data/seeds/portalUsers.json",
 ]
 REQUIRED_FIELDS = {"id", "entity", "type", "name", "status", "owner", "updatedAt", "metadata"}
 
@@ -159,7 +176,7 @@ def main() -> int:
         "- No vendor email sent.",
         "- No payment processing enabled.",
         "- No legal filing submitted.",
-        "- No GitHub remote push performed.",
+        "- No Firebase or Google Cloud resource creation performed.",
     ]
     out = ROOT / "quality/QUALITY_GATE.md"
     out.parent.mkdir(parents=True, exist_ok=True)

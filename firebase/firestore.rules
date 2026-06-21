@@ -6,6 +6,7 @@ service cloud.firestore {
     function isOwnerOrAdmin() { return role() in ["owner", "admin"]; }
     function isClinical() { return role() in ["owner", "clinical"]; }
     function isOps() { return role() in ["owner", "admin", "operations"]; }
+    function isMarketing() { return role() in ["owner", "admin", "marketing"]; }
     function hasSevenFields() {
       return request.resource.data.keys().hasAll(["id", "entity", "type", "name", "status", "owner", "updatedAt"]) &&
         request.resource.data.entity == "VYTAL House";
@@ -46,9 +47,36 @@ service cloud.firestore {
       allow read: if isOwnerOrAdmin();
       allow write: if isOwnerOrAdmin() && hasSevenFields();
     }
+    match /locations/{id} {
+      allow read: if true;
+      allow write: if isOps() && hasSevenFields();
+    }
+    match /launchGoals/{id} {
+      allow read: if signedIn();
+      allow write: if isOps() && hasSevenFields();
+    }
+    match /riskRegister/{id} {
+      allow read: if role() in ["owner", "admin", "operations", "clinical", "marketing"];
+      allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /integrationReadiness/{id} {
+      allow read: if isOwnerOrAdmin();
+      allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /portalUsers/{id} {
+      allow read: if isOwnerOrAdmin();
+      allow write: if false;
+    }
+    match /portalSessions/{id} {
+      allow read, write: if false;
+    }
     match /documents/{id} {
       allow read: if isOwnerOrAdmin() || isClinical();
       allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /socialPosts/{id} {
+      allow read: if signedIn();
+      allow write: if isMarketing() && hasSevenFields();
     }
   }
 }

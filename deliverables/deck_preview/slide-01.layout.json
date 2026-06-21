@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/nod0cd",
-    "id": "nod0cd",
+    "aid": "sl/t4hctc",
+    "id": "t4hctc",
     "slide": 1,
-    "layoutId": "86942b72-9a5b-48cb-a612-449e74c02919",
+    "layoutId": "6c63309b-39a9-4554-b92c-b8343e17ee09",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "5dd2e690-9cb2-4b90-be81-1c274dd1ba23",
+    "masterLayoutId": "4e070006-e10b-487a-9b34-d00a9836a176",
     "masterLayoutName": "Master",
     "backgroundColor": "#07090D",
     "frame": {
@@ -46,15 +46,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "86942b72-9a5b-48cb-a612-449e74c02919",
+      "id": "6c63309b-39a9-4554-b92c-b8343e17ee09",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "5dd2e690-9cb2-4b90-be81-1c274dd1ba23",
+      "parentLayoutId": "4e070006-e10b-487a-9b34-d00a9836a176",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "5dd2e690-9cb2-4b90-be81-1c274dd1ba23",
+      "id": "4e070006-e10b-487a-9b34-d00a9836a176",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -65,7 +65,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/i9s36hcr",
+      "aid": "sh/yhgn29gr",
       "id": "1",
       "bbox": [
         64,
@@ -128,7 +128,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/p0bi9s36",
+      "aid": "sh/58z25kb6",
       "id": "2",
       "bbox": [
         1168,
@@ -191,7 +191,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/0fepkzup",
+      "aid": "sh/gn29gr2p",
       "id": "3",
       "bbox": [
         64,
@@ -254,7 +254,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/bi9s36hc",
+      "aid": "sh/nuxc3ylc",
       "id": "4",
       "bbox": [
         66,
@@ -314,7 +314,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ixczed8v",
+      "aid": "sh/y90je9cv",
       "id": "5",
       "bbox": [
         760,
@@ -331,7 +331,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/tovahoza",
+      "aid": "sh/5wjudg7a",
       "id": "6",
       "bbox": [
         802,
@@ -394,7 +394,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/032lszqt",
+      "aid": "sh/gbq1oryt",
       "id": "7",
       "bbox": [
         802,
@@ -457,7 +457,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/b6xkf6dc",
+      "aid": "sh/nqxs72x4",
       "id": "8",
       "bbox": [
         804,
@@ -521,7 +521,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/il0rqd4v",
+      "aid": "sh/u54zidon",
       "id": "9",
       "bbox": [
         88,
@@ -581,7 +581,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/ovahoza1",
+      "aid": "sh/cbulwval",
       "id": "10",
       "bbox": [
         66,
@@ -598,11 +598,88 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/dg7adsji",
+      "aid": "sh/5sneloj2",
       "id": "11",
       "bbox": [
         88,
         358,
+        592,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Target site: 6000 Merriweather Drive, Columbia, MD 21044.",
+      "textPreview": "Target site: 6000 Merriweather Drive, Columbia, MD 21044.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "Aptos",
+        "color": "#F6F0E6",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Target site: 6000 Merriweather Drive, Columbia, MD 21044."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Target site: 6000 Merriweather Drive, Columbia, MD 21044.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "typeface": "Aptos",
+            "color": "#F6F0E6"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Target site: 6000 Merriweather Drive, Columbia, MD 21044.",
+              "fontSize": 19,
+              "typeface": "Aptos",
+              "color": "#F6F0E6"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54zidon",
+      "id": "12",
+      "bbox": [
+        66,
+        366,
+        8,
+        8
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#C8A46B",
+      "lineColor": "#C8A46B",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nqxs72x4",
+      "id": "13",
+      "bbox": [
+        88,
+        404,
         592,
         34
       ],
@@ -655,14 +732,14 @@
       "lineWidth": 0
     },
     {
-      "order": 12,
+      "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/6tovahoz",
-      "id": "12",
+      "aid": "sh/czed8v6p",
+      "id": "14",
       "bbox": [
         66,
-        366,
+        412,
         8,
         8
       ],
@@ -672,14 +749,14 @@
       "lineWidth": 1
     },
     {
-      "order": 13,
+      "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/vahoza1g",
-      "id": "13",
+      "aid": "sh/5kb6xkf6",
+      "id": "15",
       "bbox": [
         88,
-        404,
+        450,
         592,
         34
       ],
@@ -732,14 +809,14 @@
       "lineWidth": 0
     },
     {
-      "order": 14,
+      "order": 16,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/onyd0z61",
-      "id": "14",
+      "aid": "sh/ytsvu9kn",
+      "id": "16",
       "bbox": [
         66,
-        412,
+        458,
         8,
         8
       ],
@@ -749,11 +826,11 @@
       "lineWidth": 1
     },
     {
-      "order": 15,
+      "order": 17,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/d8v6psfi",
-      "id": "15",
+      "aid": "sh/neloj2t8",
+      "id": "17",
       "bbox": [
         64,
         640,

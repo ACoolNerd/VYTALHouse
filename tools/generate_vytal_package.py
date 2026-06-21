@@ -27,7 +27,6 @@ COLORS = {
     "white": "#ffffff",
     "gold": "#c8a46b",
     "cyan": "#7de3ff",
-    "lavender": "#c9b8ff",
     "red": "#f15f5f",
     "green": "#6ee7b7",
 }
@@ -543,7 +542,7 @@ The Notion import path is local-first. Import the Markdown pages and CSV tables 
 # 09 - Figma Design System Brief
 
 ## Design Intent
-VYTAL House should feel like a premium spacecraft lounge: dark atmospheric surfaces, crisp white typography, chrome and warm gold accents, controlled red therapy glow, and small cyan/lavender system highlights.
+VYTAL House should feel like a premium spacecraft lounge: dark atmospheric surfaces, crisp white typography, chrome and warm gold accents, controlled red therapy glow, and small cyan/green system highlights.
 
 ## Screens To Create
 - Website home.
@@ -1192,7 +1191,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   --white: #ffffff;
   --gold: #c8a46b;
   --cyan: #7de3ff;
-  --lavender: #c9b8ff;
   --red: #f15f5f;
   --green: #6ee7b7;
 }

@@ -1,9 +1,9 @@
 import Image from "next/image";
-import { ArrowRight, ShieldCheck, Sparkles, TimerReset } from "lucide-react";
+import { ArrowRight, MapPin, ShieldCheck, Sparkles, TimerReset } from "lucide-react";
 import { Footer } from "@/components/Footer";
 import { LeadForm } from "@/components/LeadForm";
 import { Nav } from "@/components/Nav";
-import { brand, membershipRecords, monthlyMembershipRevenue, serviceRecords } from "@/lib/data";
+import { brand, launchLocation, membershipRecords, monthlyMembershipRevenue, serviceRecords } from "@/lib/data";
 
 export default function HomePage() {
   return (
@@ -16,6 +16,7 @@ export default function HomePage() {
           <p className="hero-copy">{brand.description}</p>
           <div className="hero-actions">
             <a className="pill-button primary" href="#waitlist">Join waitlist <ArrowRight size={16} /></a>
+            <a className="pill-button" href="/portal">Open portal</a>
             <a className="pill-button" href="/facility">View facility plan</a>
           </div>
         </div>
@@ -28,6 +29,7 @@ export default function HomePage() {
           <div className="card"><Sparkles /><h3>Spacecraft ambience</h3><p className="muted">Dark cinematic lounges, crisp typography, chrome textures, warm gold, and therapy-specific glow.</p></div>
           <div className="card"><TimerReset /><h3>Recurring recovery</h3><p className="muted">Core, Elite, and Black membership tiers are modeled for $179,700 in monthly membership revenue at target mix.</p></div>
           <div className="card"><ShieldCheck /><h3>Governed launch</h3><p className="muted">No live medical intake, payments, vendor sends, or external workspace changes before approval.</p></div>
+          <div className="card"><MapPin /><h3>Target location</h3><p className="muted">{launchLocation.metadata.fullAddress}. Lease, zoning, utilities, and tenant improvements remain approval-gated.</p></div>
         </div>
       </section>
       <section className="section">

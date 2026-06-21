@@ -1,185 +1,193 @@
-{"kind":"deck","id":"pr/180xdb","name":"Deck"}
-{"kind":"layout","layoutId":"5dd2e690-9cb2-4b90-be81-1c274dd1ba23","name":"Master","type":"master"}
-{"kind":"layout","layoutId":"86942b72-9a5b-48cb-a612-449e74c02919","name":"Title Slide","type":"title"}
-{"kind":"slide","id":"sl/nod0cd","slide":1,"title":"VYTAL HOUSE","textShapes":11}
-{"kind":"textbox","id":"sh/i9s36hcr","slide":1,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/p0bi9s36","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/0fepkzup","slide":1,"text":"VYTAL House","textPreview":"VYTAL House","textChars":11,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/bi9s36hc","slide":1,"text":"Recharge. Recover. Evolve.","textPreview":"Recharge. Recover. Evolve.","textChars":26,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/ixczed8v","slide":1,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/tovahoza","slide":1,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/032lszqt","slide":1,"text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/b6xkf6dc","slide":1,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/il0rqd4v","slide":1,"text":"A premium Maryland recovery and wellness club.","textPreview":"A premium Maryland recovery and wellness club.","textChars":46,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/ovahoza1","slide":1,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/dg7adsji","slide":1,"text":"Owned by Chauncey Gardner and Kathy Ha.","textPreview":"Owned by Chauncey Gardner and Kathy Ha.","textChars":39,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/6tovahoz","slide":1,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/vahoza1g","slide":1,"text":"Local draft package with external actions gated.","textPreview":"Local draft package with external actions gated.","textChars":48,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/onyd0z61","slide":1,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/d8v6psfi","slide":1,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/nod0cd","slide":1,"text":""}
-{"kind":"slide","id":"sl/hb0jcg","slide":2,"title":"VYTAL HOUSE","textShapes":11}
-{"kind":"textbox","id":"sh/g3ex0nux","slide":2,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/nih4byhg","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/yxobm58z","slide":2,"text":"Vision","textPreview":"Vision","textChars":6,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/9cvixcze","slide":2,"text":"A spacecraft-inspired recovery lounge.","textPreview":"A spacecraft-inspired recovery lounge.","textChars":38,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/gr2p8nqx","slide":2,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/r65wjudg","slide":2,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/ylc7u54z","slide":2,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/90je9cvi","slide":2,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/gfmlkjm1","slide":2,"text":"Dark cinematic ambience with chrome and warm gold.","textPreview":"Dark cinematic ambience with chrome and warm gold.","textChars":50,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/65wjudg7","slide":2,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/zqtcj6to","slide":2,"text":"Clinical-grade modalities and concierge operations.","textPreview":"Clinical-grade modalities and concierge operations.","textChars":51,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/obm58z25","slide":2,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/hwfyxobm","slide":2,"text":"Membership-led model with high-margin add-ons.","textPreview":"Membership-led model with high-margin add-ons.","textChars":46,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/6xkf6dcb","slide":2,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/zed8v6ps","slide":2,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/hb0jcg","slide":2,"text":""}
-{"kind":"slide","id":"sl/ryulpk","slide":3,"title":"VYTAL HOUSE","textShapes":11}
-{"kind":"textbox","id":"sh/x4nap4r6","slide":3,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/qd4vmtwr","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/fyxobm58","slide":3,"text":"Services","textPreview":"Services","textChars":8,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/8v6psfil","slide":3,"text":"The therapy system.","textPreview":"The therapy system.","textChars":19,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/xczed8v6","slide":3,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/qpg3ex0n","slide":3,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/fa9w3m94","slide":3,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/8z25kb6x","slide":3,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/1gvy90je","slide":3,"text":"Hyperbaric oxygen therapy.","textPreview":"Hyperbaric oxygen therapy.","textChars":26,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/pg3ex0nu","slide":3,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/wval87ed","slide":3,"text":"IV and NAD+ lounge.","textPreview":"IV and NAD+ lounge.","textChars":19,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/7adsji5s","slide":3,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/epkzupwb","slide":3,"text":"Red light, cryotherapy, sauna, cold plunge, float, and compression.","textPreview":"Red light, cryotherapy, sauna, cold plunge, float, and compression.","textChars":67,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/psfil0rq","slide":3,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/w7mp0bi9","slide":3,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/ryulpk","slide":3,"text":""}
-{"kind":"slide","id":"sl/614g3j","slide":4,"title":"VYTAL HOUSE","textShapes":12}
-{"kind":"textbox","id":"sh/pkzupwb2","slide":4,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/itgfmlkj","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/7ed8bat4","slide":4,"text":"Memberships","textPreview":"Memberships","textChars":11,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/0nuxc3yl","slide":4,"text":"Core, Elite, and Black.","textPreview":"Core, Elite, and Black.","textChars":23,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/p8nqxs72","slide":4,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/ih4byhgn","slide":4,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/72x4nap4","slide":4,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/wjudg7ad","slide":4,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/p4r65wju","slide":4,"text":"Core: $299/month.","textPreview":"Core: $299/month.","textChars":17,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/lwval87e","slide":4,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/wb2hwfyx","slide":4,"text":"Elite: $599/month.","textPreview":"Elite: $599/month.","textChars":18,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/3q5o7qpg","slide":4,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/e9cvixcz","slide":4,"text":"Black: $1,499/month.","textPreview":"Black: $1,499/month.","textChars":20,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/loj2t83i","slide":4,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/w3m94fu1","slide":4,"text":"Target membership MRR: $179,700.","textPreview":"Target membership MRR: $179,700.","textChars":32,"textLines":1,"bbox":[88,450,592,34]}
-{"kind":"shape","id":"sh/3itgfmlk","slide":4,"bbox":[66,458,8,8]}
-{"kind":"textbox","id":"sh/ex0nuxc3","slide":4,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/614g3j","slide":4,"text":""}
-{"kind":"slide","id":"sl/wt9xv7","slide":5,"title":"VYTAL HOUSE","textShapes":12}
-{"kind":"textbox","id":"sh/x0nuxc3y","slide":5,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/m94fu18j","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/fu18jqh0","slide":5,"text":"Facility","textPreview":"Facility","textChars":8,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/83itgfml","slide":5,"text":"Conceptual 6,925 SF operating map.","textPreview":"Conceptual 6,925 SF operating map.","textChars":34,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/xobm58z2","slide":5,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/qxs72x4n","slide":5,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/fil0rqd4","slide":5,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/4zidonyd","slide":5,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/xkf6dcbu","slide":5,"text":"Reception and retail.","textPreview":"Reception and retail.","textChars":21,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/1kre1w7m","slide":5,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/c3ylc7u5","slide":5,"text":"IV/NAD lounge.","textPreview":"IV/NAD lounge.","textChars":14,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/ji5snelo","slide":5,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/uxc3ylc7","slide":5,"text":"Consult rooms.","textPreview":"Consult rooms.","textChars":14,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/1cfa9w3m","slide":5,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/crmhk3q5","slide":5,"text":"Cryotherapy, red light, sauna/cold plunge, recovery zone.","textPreview":"Cryotherapy, red light, sauna/cold plunge, recovery zone.","textChars":57,"textLines":1,"bbox":[88,450,592,34]}
-{"kind":"shape","id":"sh/j6tovaho","slide":5,"bbox":[66,458,8,8]}
-{"kind":"textbox","id":"sh/ulwval87","slide":5,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/wt9xv7","slide":5,"text":""}
-{"kind":"slide","id":"sl/jptqjw","slide":6,"title":"VYTAL HOUSE","textShapes":12}
-{"kind":"textbox","id":"sh/8nqxs72x","slide":6,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/j2t83itg","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/qh0fepkz","slide":6,"text":"Technology","textPreview":"Technology","textChars":10,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/1w7mp0bi","slide":6,"text":"Next.js, Firebase, and governed records.","textPreview":"Next.js, Firebase, and governed records.","textChars":40,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/8bat47y1","slide":6,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/jqh0fepk","slide":6,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/q5o7qpg3","slide":6,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/1kre1w7m","slide":6,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/c3ylc7u5","slide":6,"text":"Public website.","textPreview":"Public website.","textChars":15,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/a1gvy90j","slide":6,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/zidonyd0","slide":6,"text":"Member app/PWA.","textPreview":"Member app/PWA.","textChars":15,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/s36hcrmh","slide":6,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/hoza1gvy","slide":6,"text":"Admin dashboard.","textPreview":"Admin dashboard.","textChars":16,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/ap4r65wj","slide":6,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/za1gvy90","slide":6,"text":"Vendor CRM and content calendar.","textPreview":"Vendor CRM and content calendar.","textChars":32,"textLines":1,"bbox":[88,450,592,34]}
-{"kind":"shape","id":"sh/svu9knih","slide":6,"bbox":[66,458,8,8]}
-{"kind":"textbox","id":"sh/hgn29gr2","slide":6,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/jptqjw","slide":6,"text":""}
-{"kind":"slide","id":"sl/3gya1g","slide":7,"title":"VYTAL HOUSE","textShapes":13}
-{"kind":"textbox","id":"sh/itgfmlkj","slide":7,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/pkzupwb2","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/0z61032l","slide":7,"text":"Vendor Path","textPreview":"Vendor Path","textChars":11,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/72x4nap4","slide":7,"text":"Quote-first procurement.","textPreview":"Quote-first procurement.","textChars":24,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/ih4byhgn","slide":7,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/p8nqxs72","slide":7,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/0nuxc3yl","slide":7,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/7y1kre1w","slide":7,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/ed8v6psf","slide":7,"text":"Oxycell.","textPreview":"Oxycell.","textChars":8,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/8v6psfil","slide":7,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/xczed8v6","slide":7,"text":"Oxygen Health Systems.","textPreview":"Oxygen Health Systems.","textChars":22,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/qpg3ex0n","slide":7,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/fa9w3m94","slide":7,"text":"VacuActiv.","textPreview":"VacuActiv.","textChars":10,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/8jqh0fep","slide":7,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/x4nap4r6","slide":7,"text":"EleveHealth.","textPreview":"EleveHealth.","textChars":12,"textLines":1,"bbox":[88,450,592,34]}
-{"kind":"shape","id":"sh/qd4vmtwr","slide":7,"bbox":[66,458,8,8]}
-{"kind":"textbox","id":"sh/fyxobm58","slide":7,"text":"No outreach sent without approval.","textPreview":"No outreach sent without approval.","textChars":34,"textLines":1,"bbox":[88,496,592,34]}
-{"kind":"shape","id":"sh/87ed8bat","slide":7,"bbox":[66,504,8,8]}
-{"kind":"textbox","id":"sh/xs72x4na","slide":7,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/3gya1g","slide":7,"text":""}
-{"kind":"slide","id":"sl/557xzd","slide":8,"title":"VYTAL HOUSE","textShapes":10}
-{"kind":"textbox","id":"sh/7u54zido","slide":8,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/wfyxobm5","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/l0rqd4vm","slide":8,"text":"Governance","textPreview":"Governance","textChars":10,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/eloj2t83","slide":8,"text":"7-field schema and separation of duties.","textPreview":"7-field schema and separation of duties.","textChars":40,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/36hcrmhk","slide":8,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/wra5gbq1","slide":8,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/lc7u54zi","slide":8,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/epkzupwb","slide":8,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/7adsji5s","slide":8,"text":"Every record has id, entity, type, name, status, owner, updatedAt.","textPreview":"Every record has id, entity, type, name, status, owner, updatedAt.","textChars":66,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/nqxs72x4","slide":8,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/u54zidon","slide":8,"text":"Medical, legal, financial, payment, Figma, and Notion gates remain controlled.","textPreview":"Medical, legal, financial, payment, Figma, and Notion gates remain controlled.","textChars":78,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/5sneloj2","slide":8,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/cbulwval","slide":8,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/557xzd","slide":8,"text":""}
-{"kind":"slide","id":"sl/ei3tus","slide":9,"title":"VYTAL HOUSE","textShapes":13}
-{"kind":"textbox","id":"sh/xs72x4na","slide":9,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/q1orytsv","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/fmlkjm1c","slide":9,"text":"Quality Gate","textPreview":"Quality Gate","textChars":12,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/8z25kb6x","slide":9,"text":"97/100 minimum before runtime handoff.","textPreview":"97/100 minimum before runtime handoff.","textChars":38,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/1gvy90je","slide":9,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/qtcj6tov","slide":9,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/je9cvixc","slide":9,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/8v6psfil","slide":9,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/xczed8v6","slide":9,"text":"Source traceability.","textPreview":"Source traceability.","textChars":20,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/donyd0z6","slide":9,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/k3q5o7qp","slide":9,"text":"Brand isolation.","textPreview":"Brand isolation.","textChars":16,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/vixczed8","slide":9,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/2x4nap4r","slide":9,"text":"Schema governance.","textPreview":"Schema governance.","textChars":18,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/dcbulwva","slide":9,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/kre1w7mp","slide":9,"text":"Document completeness.","textPreview":"Document completeness.","textChars":22,"textLines":1,"bbox":[88,450,592,34]}
-{"kind":"shape","id":"sh/val87ed8","slide":9,"bbox":[66,458,8,8]}
-{"kind":"textbox","id":"sh/6psfil0r","slide":9,"text":"App verification.","textPreview":"App verification.","textChars":17,"textLines":1,"bbox":[88,496,592,34]}
-{"kind":"shape","id":"sh/d8bat47y","slide":9,"bbox":[66,504,8,8]}
-{"kind":"textbox","id":"sh/knih4byh","slide":9,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/ei3tus","slide":9,"text":""}
-{"kind":"slide","id":"sl/2uvadx","slide":10,"title":"VYTAL HOUSE","textShapes":11}
-{"kind":"textbox","id":"sh/ahoza1gv","slide":10,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
-{"kind":"textbox","id":"sh/l87ed8ba","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
-{"kind":"textbox","id":"sh/sneloj2t","slide":10,"text":"Next Steps","textPreview":"Next Steps","textChars":10,"textLines":1,"bbox":[64,116,720,86]}
-{"kind":"textbox","id":"sh/3ex0nuxc","slide":10,"text":"Run locally, review, then approve external moves.","textPreview":"Run locally, review, then approve external moves.","textChars":49,"textLines":1,"bbox":[66,208,620,44]}
-{"kind":"shape","id":"sh/at47y1kr","slide":10,"bbox":[760,118,398,420]}
-{"kind":"textbox","id":"sh/lkjm1cfa","slide":10,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
-{"kind":"textbox","id":"sh/szqtcj6t","slide":10,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
-{"kind":"textbox","id":"sh/3itgfmlk","slide":10,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
-{"kind":"textbox","id":"sh/ex0nuxc3","slide":10,"text":"Review deliverables.","textPreview":"Review deliverables.","textChars":20,"textLines":1,"bbox":[88,312,592,34]}
-{"kind":"shape","id":"sh/wfyxobm5","slide":10,"bbox":[66,320,8,8]}
-{"kind":"textbox","id":"sh/l0rqd4vm","slide":10,"text":"Confirm lease, medical, legal, and vendor assumptions.","textPreview":"Confirm lease, medical, legal, and vendor assumptions.","textChars":54,"textLines":1,"bbox":[88,358,592,34]}
-{"kind":"shape","id":"sh/ed8bat47","slide":10,"bbox":[66,366,8,8]}
-{"kind":"textbox","id":"sh/7u54zido","slide":10,"text":"Approve Notion/Figma live creation only when ready.","textPreview":"Approve Notion/Figma live creation only when ready.","textChars":51,"textLines":1,"bbox":[88,404,592,34]}
-{"kind":"shape","id":"sh/wra5gbq1","slide":10,"bbox":[66,412,8,8]}
-{"kind":"textbox","id":"sh/lc7u54zi","slide":10,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
-{"kind":"notes","id":"nt/2uvadx","slide":10,"text":""}
+{"kind":"deck","id":"pr/fyeuqm","name":"Deck"}
+{"kind":"layout","layoutId":"4e070006-e10b-487a-9b34-d00a9836a176","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6c63309b-39a9-4554-b92c-b8343e17ee09","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/t4hctc","slide":1,"title":"VYTAL HOUSE","textShapes":12}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":1,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/58z25kb6","slide":1,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":1,"text":"VYTAL House","textPreview":"VYTAL House","textChars":11,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/nuxc3ylc","slide":1,"text":"Recharge. Recover. Evolve.","textPreview":"Recharge. Recover. Evolve.","textChars":26,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/y90je9cv","slide":1,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/5wjudg7a","slide":1,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/gbq1oryt","slide":1,"text":"100","textPreview":"100","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":1,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/u54zidon","slide":1,"text":"A premium Maryland recovery and wellness club.","textPreview":"A premium Maryland recovery and wellness club.","textChars":46,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/cbulwval","slide":1,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/5sneloj2","slide":1,"text":"Target site: 6000 Merriweather Drive, Columbia, MD 21044.","textPreview":"Target site: 6000 Merriweather Drive, Columbia, MD 21044.","textChars":57,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/u54zidon","slide":1,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/nqxs72x4","slide":1,"text":"Owned by Chauncey Gardner and Kathy Ha.","textPreview":"Owned by Chauncey Gardner and Kathy Ha.","textChars":39,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/czed8v6p","slide":1,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/5kb6xkf6","slide":1,"text":"Local draft package with external actions gated.","textPreview":"Local draft package with external actions gated.","textChars":48,"textLines":1,"bbox":[88,450,592,34]}
+{"kind":"shape","id":"sh/ytsvu9kn","slide":1,"bbox":[66,458,8,8]}
+{"kind":"textbox","id":"sh/neloj2t8","slide":1,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/t4hctc","slide":1,"text":""}
+{"kind":"slide","id":"sl/gmu6au","slide":2,"title":"VYTAL HOUSE","textShapes":11}
+{"kind":"textbox","id":"sh/xs72x4na","slide":2,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/q1orytsv","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/fmlkjm1c","slide":2,"text":"Vision","textPreview":"Vision","textChars":6,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/8z25kb6x","slide":2,"text":"A spacecraft-inspired recovery lounge.","textPreview":"A spacecraft-inspired recovery lounge.","textChars":38,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/1gvy90je","slide":2,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/qtcj6tov","slide":2,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/je9cvixc","slide":2,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/8v6psfil","slide":2,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/xczed8v6","slide":2,"text":"Dark cinematic ambience with chrome and warm gold.","textPreview":"Dark cinematic ambience with chrome and warm gold.","textChars":50,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/donyd0z6","slide":2,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/k3q5o7qp","slide":2,"text":"Clinical-grade modalities and concierge operations.","textPreview":"Clinical-grade modalities and concierge operations.","textChars":51,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/vixczed8","slide":2,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/2x4nap4r","slide":2,"text":"Membership-led model with high-margin add-ons.","textPreview":"Membership-led model with high-margin add-ons.","textChars":46,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/dcbulwva","slide":2,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/kre1w7mp","slide":2,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/gmu6au","slide":2,"text":""}
+{"kind":"slide","id":"sl/ieyj51","slide":3,"title":"VYTAL HOUSE","textShapes":11}
+{"kind":"textbox","id":"sh/zupwb2hw","slide":3,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/sfil0rqd","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/h0fepkzu","slide":3,"text":"Services","textPreview":"Services","textChars":8,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/al87ed8b","slide":3,"text":"The therapy system.","textPreview":"The therapy system.","textChars":19,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/z61032ls","slide":3,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/orytsvu9","slide":3,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/hcrmhk3q","slide":3,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/6xkf6dcb","slide":3,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/zed8v6ps","slide":3,"text":"Hyperbaric oxygen therapy.","textPreview":"Hyperbaric oxygen therapy.","textChars":26,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/n29gr2p8","slide":3,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/yhgn29gr","slide":3,"text":"IV and NAD+ lounge.","textPreview":"IV and NAD+ lounge.","textChars":19,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/58z25kb6","slide":3,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/gn29gr2p","slide":3,"text":"Red light, cryotherapy, sauna, cold plunge, float, and compression.","textPreview":"Red light, cryotherapy, sauna, cold plunge, float, and compression.","textChars":67,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/nuxc3ylc","slide":3,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/y90je9cv","slide":3,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/ieyj51","slide":3,"text":""}
+{"kind":"slide","id":"sl/im0m4m","slide":4,"title":"VYTAL HOUSE","textShapes":12}
+{"kind":"textbox","id":"sh/sneloj2t","slide":4,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/32lszqtc","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/ahoza1gv","slide":4,"text":"Memberships","textPreview":"Memberships","textChars":11,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/lkjm1cfa","slide":4,"text":"Core, Elite, and Black.","textPreview":"Core, Elite, and Black.","textChars":23,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/szqtcj6t","slide":4,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/3ex0nuxc","slide":4,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":4,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/loj2t83i","slide":4,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/w3m94fu1","slide":4,"text":"Core: $299/month.","textPreview":"Core: $299/month.","textChars":17,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/udg7adsj","slide":4,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/nyd0z610","slide":4,"text":"Elite: $599/month.","textPreview":"Elite: $599/month.","textChars":18,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/cj6tovah","slide":4,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/54zidony","slide":4,"text":"Black: $1,499/month.","textPreview":"Black: $1,499/month.","textChars":20,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/upwb2hwf","slide":4,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/nap4r65w","slide":4,"text":"Target membership MRR: $179,700.","textPreview":"Target membership MRR: $179,700.","textChars":32,"textLines":1,"bbox":[88,450,592,34]}
+{"kind":"shape","id":"sh/cvixczed","slide":4,"bbox":[66,458,8,8]}
+{"kind":"textbox","id":"sh/5gbq1ory","slide":4,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/im0m4m","slide":4,"text":""}
+{"kind":"slide","id":"sl/mt8qnt","slide":5,"title":"VYTAL HOUSE","textShapes":13}
+{"kind":"textbox","id":"sh/uxc3ylc7","slide":5,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":5,"text":"Facility","textPreview":"Facility","textChars":8,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/j6tovaho","slide":5,"text":"Conceptual 6,925 SF operating map.","textPreview":"Conceptual 6,925 SF operating map.","textChars":34,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/ulwval87","slide":5,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":5,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":5,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/j2t83itg","slide":5,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/qh0fepkz","slide":5,"text":"Target location: 6000 Merriweather Drive.","textPreview":"Target location: 6000 Merriweather Drive.","textChars":41,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/s36hcrmh","slide":5,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/hoza1gvy","slide":5,"text":"Reception and retail.","textPreview":"Reception and retail.","textChars":21,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/a1gvy90j","slide":5,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/zidonyd0","slide":5,"text":"IV/NAD lounge.","textPreview":"IV/NAD lounge.","textChars":14,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/svu9knih","slide":5,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/hgn29gr2","slide":5,"text":"Consult rooms.","textPreview":"Consult rooms.","textChars":14,"textLines":1,"bbox":[88,450,592,34]}
+{"kind":"shape","id":"sh/ap4r65wj","slide":5,"bbox":[66,458,8,8]}
+{"kind":"textbox","id":"sh/za1gvy90","slide":5,"text":"Cryotherapy, red light, sauna/cold plunge, recovery zone.","textPreview":"Cryotherapy, red light, sauna/cold plunge, recovery zone.","textChars":57,"textLines":1,"bbox":[88,496,592,34]}
+{"kind":"shape","id":"sh/sji5snel","slide":5,"bbox":[66,504,8,8]}
+{"kind":"textbox","id":"sh/h4byhgn2","slide":5,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/mt8qnt","slide":5,"text":""}
+{"kind":"slide","id":"sl/m7z747","slide":6,"title":"VYTAL HOUSE","textShapes":14}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":6,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/mp0bi9s3","slide":6,"text":"Technology","textPreview":"Technology","textChars":10,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/tsvu9kni","slide":6,"text":"Next.js, Firebase, and governed records.","textPreview":"Next.js, Firebase, and governed records.","textChars":40,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/47y1kre1","slide":6,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/bm58z25k","slide":6,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/m1cfa9w3","slide":6,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":6,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/4byhgn29","slide":6,"text":"Public website.","textPreview":"Public website.","textChars":15,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/m58z25kb","slide":6,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":6,"text":"Local role login.","textPreview":"Local role login.","textChars":17,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/4byhgn29","slide":6,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/twra5gbq","slide":6,"text":"Command portal.","textPreview":"Command portal.","textChars":15,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/mhk3q5o7","slide":6,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":6,"text":"Member app/PWA.","textPreview":"Member app/PWA.","textChars":15,"textLines":1,"bbox":[88,450,592,34]}
+{"kind":"shape","id":"sh/4nap4r65","slide":6,"bbox":[66,458,8,8]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":6,"text":"Admin dashboard.","textPreview":"Admin dashboard.","textChars":16,"textLines":1,"bbox":[88,496,592,34]}
+{"kind":"shape","id":"sh/mp0bi9s3","slide":6,"bbox":[66,504,8,8]}
+{"kind":"textbox","id":"sh/bat47y1k","slide":6,"text":"Vendor CRM and content calendar.","textPreview":"Vendor CRM and content calendar.","textChars":32,"textLines":1,"bbox":[88,542,592,34]}
+{"kind":"shape","id":"sh/3ex0nuxc","slide":6,"bbox":[66,550,8,8]}
+{"kind":"textbox","id":"sh/at47y1kr","slide":6,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/m7z747","slide":6,"text":""}
+{"kind":"slide","id":"sl/qku9qa","slide":7,"title":"VYTAL HOUSE","textShapes":13}
+{"kind":"textbox","id":"sh/ulwval87","slide":7,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/1cfa9w3m","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/crmhk3q5","slide":7,"text":"Vendor Path","textPreview":"Vendor Path","textChars":11,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/ji5snelo","slide":7,"text":"Quote-first procurement.","textPreview":"Quote-first procurement.","textChars":24,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/uxc3ylc7","slide":7,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/1kre1w7m","slide":7,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/c3ylc7u5","slide":7,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/jqh0fepk","slide":7,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/q5o7qpg3","slide":7,"text":"Oxycell.","textPreview":"Oxycell.","textChars":8,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/kzupwb2h","slide":7,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/9knih4by","slide":7,"text":"Oxygen Health Systems.","textPreview":"Oxygen Health Systems.","textChars":22,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/2t83itgf","slide":7,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":7,"text":"VacuActiv.","textPreview":"VacuActiv.","textChars":10,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/kb6xkf6d","slide":7,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":7,"text":"EleveHealth.","textPreview":"EleveHealth.","textChars":12,"textLines":1,"bbox":[88,450,592,34]}
+{"kind":"shape","id":"sh/25kb6xkf","slide":7,"bbox":[66,458,8,8]}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":7,"text":"No outreach sent without approval.","textPreview":"No outreach sent without approval.","textChars":34,"textLines":1,"bbox":[88,496,592,34]}
+{"kind":"shape","id":"sh/kjm1cfa9","slide":7,"bbox":[66,504,8,8]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":7,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/qku9qa","slide":7,"text":""}
+{"kind":"slide","id":"sl/0265cf","slide":8,"title":"VYTAL HOUSE","textShapes":10}
+{"kind":"textbox","id":"sh/4byhgn29","slide":8,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/bq1oryts","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/m58z25kb","slide":8,"text":"Governance","textPreview":"Governance","textChars":10,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/t83itgfm","slide":8,"text":"7-field schema and separation of duties.","textPreview":"7-field schema and separation of duties.","textChars":40,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/4nap4r65","slide":8,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/b2hwfyxo","slide":8,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/mhk3q5o7","slide":8,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/tgfmlkjm","slide":8,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/4vmtwra5","slide":8,"text":"Every record has id, entity, type, name, status, owner, updatedAt.","textPreview":"Every record has id, entity, type, name, status, owner, updatedAt.","textChars":66,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/i5sneloj","slide":8,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/7qpg3ex0","slide":8,"text":"Medical, legal, financial, payment, Figma, and Notion gates remain controlled.","textPreview":"Medical, legal, financial, payment, Figma, and Notion gates remain controlled.","textChars":78,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/0bi9s36h","slide":8,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/pwb2hwfy","slide":8,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/0265cf","slide":8,"text":""}
+{"kind":"slide","id":"sl/kxtvh2","slide":9,"title":"VYTAL HOUSE","textShapes":13}
+{"kind":"textbox","id":"sh/rqd4vmtw","slide":9,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/kb6xkf6d","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/9w3m94fu","slide":9,"text":"Quality Gate","textPreview":"Quality Gate","textChars":12,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":9,"text":"97/100 minimum before runtime handoff.","textPreview":"97/100 minimum before runtime handoff.","textChars":38,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/re1w7mp0","slide":9,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/kzupwb2h","slide":9,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/9knih4by","slide":9,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":9,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/ra5gbq1o","slide":9,"text":"Source traceability.","textPreview":"Source traceability.","textChars":20,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/3m94fu18","slide":9,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/a5gbq1or","slide":9,"text":"Brand isolation.","textPreview":"Brand isolation.","textChars":16,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/lszqtcj6","slide":9,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/s72x4nap","slide":9,"text":"Schema governance.","textPreview":"Schema governance.","textChars":18,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/3ylc7u54","slide":9,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/adsji5sn","slide":9,"text":"Document completeness.","textPreview":"Document completeness.","textChars":22,"textLines":1,"bbox":[88,450,592,34]}
+{"kind":"shape","id":"sh/h4byhgn2","slide":9,"bbox":[66,458,8,8]}
+{"kind":"textbox","id":"sh/sji5snel","slide":9,"text":"App verification.","textPreview":"App verification.","textChars":17,"textLines":1,"bbox":[88,496,592,34]}
+{"kind":"shape","id":"sh/za1gvy90","slide":9,"bbox":[66,504,8,8]}
+{"kind":"textbox","id":"sh/ap4r65wj","slide":9,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/kxtvh2","slide":9,"text":""}
+{"kind":"slide","id":"sl/j9ybnq","slide":10,"title":"VYTAL HOUSE","textShapes":11}
+{"kind":"textbox","id":"sh/r2p8nqxs","slide":10,"text":"VYTAL HOUSE","textPreview":"VYTAL HOUSE","textChars":11,"textLines":1,"bbox":[64,46,260,24]}
+{"kind":"textbox","id":"sh/kjm1cfa9","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1168,46,46,28]}
+{"kind":"textbox","id":"sh/94fu18jq","slide":10,"text":"Next Steps","textPreview":"Next Steps","textChars":10,"textLines":1,"bbox":[64,116,720,86]}
+{"kind":"textbox","id":"sh/2p8nqxs7","slide":10,"text":"Run locally, review, then approve external moves.","textPreview":"Run locally, review, then approve external moves.","textChars":49,"textLines":1,"bbox":[66,208,620,44]}
+{"kind":"shape","id":"sh/ra5gbq1o","slide":10,"bbox":[760,118,398,420]}
+{"kind":"textbox","id":"sh/gvy90je9","slide":10,"text":"QUALITY LOCK","textPreview":"QUALITY LOCK","textChars":12,"textLines":1,"bbox":[802,160,180,22]}
+{"kind":"textbox","id":"sh/9gr2p8nq","slide":10,"text":"97+","textPreview":"97+","textChars":3,"textLines":1,"bbox":[802,194,160,80]}
+{"kind":"textbox","id":"sh/2t83itgf","slide":10,"text":"Minimum package score before runtime handoff.","textPreview":"Minimum package score before runtime handoff.","textChars":45,"textLines":1,"bbox":[804,278,260,54]}
+{"kind":"textbox","id":"sh/re1w7mp0","slide":10,"text":"Review deliverables.","textPreview":"Review deliverables.","textChars":20,"textLines":1,"bbox":[88,312,592,34]}
+{"kind":"shape","id":"sh/bulwval8","slide":10,"bbox":[66,320,8,8]}
+{"kind":"textbox","id":"sh/i9s36hcr","slide":10,"text":"Confirm lease, medical, legal, and vendor assumptions.","textPreview":"Confirm lease, medical, legal, and vendor assumptions.","textChars":54,"textLines":1,"bbox":[88,358,592,34]}
+{"kind":"shape","id":"sh/p0bi9s36","slide":10,"bbox":[66,366,8,8]}
+{"kind":"textbox","id":"sh/0fepkzup","slide":10,"text":"Approve Firebase, Google Cloud, Notion, and Figma live creation only when ready.","textPreview":"Approve Firebase, Google Cloud, Notion, and Figma live creation only when ready.","textChars":80,"textLines":1,"bbox":[88,404,592,34]}
+{"kind":"shape","id":"sh/bi9s36hc","slide":10,"bbox":[66,412,8,8]}
+{"kind":"textbox","id":"sh/ixczed8v","slide":10,"text":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textPreview":"Draft only: no live payments, vendor sends, legal filings, protected health intake, or external workspace creation.","textChars":115,"textLines":1,"bbox":[64,640,980,26]}
+{"kind":"notes","id":"nt/j9ybnq","slide":10,"text":""}

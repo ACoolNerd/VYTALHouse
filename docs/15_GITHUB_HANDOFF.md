@@ -3,7 +3,8 @@
 ## Local Repository
 - Path: local workspace folder `VYTAL House`
 - Branch: `main`
-- Status: initialized locally, no remote configured at generation time.
+- Remote: configured VYTALHouse GitHub origin.
+- Status: local repository is connected to the VYTALHouse GitHub remote.
 - Recommended visibility: private until source copies, vendor records, legal drafts, and financial assumptions are reviewed for public exposure.
 
 ## Included GitHub Assets
@@ -22,10 +23,9 @@ git commit -m "Initial VYTAL House manifest package"
 ```
 
 ## Remote Publish Gate
-Do not push to GitHub until the owner approves:
+Pushes are allowed only when explicitly requested by the owner and only for VYTAL-scoped files:
 
 ```bash
-git remote add origin <private-github-repo-url>
 git push -u origin main
 ```
 
@@ -42,6 +42,8 @@ python3 tools/verify_quality.py
 - `recovery`
 - `nextjs`
 - `firebase`
+- `project-ready`
+- `google-cloud-readiness`
 - `governance`
 
 ## External Actions Still Blocked

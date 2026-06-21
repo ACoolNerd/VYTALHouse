@@ -2,13 +2,13 @@
   "schema": "openai.presentation.layout/v4",
   "unit": "px",
   "slide": {
-    "aid": "sl/ryulpk",
-    "id": "ryulpk",
+    "aid": "sl/ieyj51",
+    "id": "ieyj51",
     "slide": 3,
-    "layoutId": "86942b72-9a5b-48cb-a612-449e74c02919",
+    "layoutId": "6c63309b-39a9-4554-b92c-b8343e17ee09",
     "layoutName": "Title Slide",
     "layoutType": "title",
-    "masterLayoutId": "5dd2e690-9cb2-4b90-be81-1c274dd1ba23",
+    "masterLayoutId": "4e070006-e10b-487a-9b34-d00a9836a176",
     "masterLayoutName": "Master",
     "backgroundColor": "#07090D",
     "frame": {
@@ -46,15 +46,15 @@
   "inheritedLayers": [
     {
       "scope": "layout",
-      "id": "86942b72-9a5b-48cb-a612-449e74c02919",
+      "id": "6c63309b-39a9-4554-b92c-b8343e17ee09",
       "name": "Title Slide",
       "type": "title",
-      "parentLayoutId": "5dd2e690-9cb2-4b90-be81-1c274dd1ba23",
+      "parentLayoutId": "4e070006-e10b-487a-9b34-d00a9836a176",
       "elements": []
     },
     {
       "scope": "master",
-      "id": "5dd2e690-9cb2-4b90-be81-1c274dd1ba23",
+      "id": "4e070006-e10b-487a-9b34-d00a9836a176",
       "name": "Master",
       "type": "master",
       "elements": []
@@ -65,7 +65,7 @@
       "order": 1,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/x4nap4r6",
+      "aid": "sh/zupwb2hw",
       "id": "1",
       "bbox": [
         64,
@@ -128,7 +128,7 @@
       "order": 2,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qd4vmtwr",
+      "aid": "sh/sfil0rqd",
       "id": "2",
       "bbox": [
         1168,
@@ -191,7 +191,7 @@
       "order": 3,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fyxobm58",
+      "aid": "sh/h0fepkzu",
       "id": "3",
       "bbox": [
         64,
@@ -254,7 +254,7 @@
       "order": 4,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8v6psfil",
+      "aid": "sh/al87ed8b",
       "id": "4",
       "bbox": [
         66,
@@ -314,7 +314,7 @@
       "order": 5,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/xczed8v6",
+      "aid": "sh/z61032ls",
       "id": "5",
       "bbox": [
         760,
@@ -331,7 +331,7 @@
       "order": 6,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/qpg3ex0n",
+      "aid": "sh/orytsvu9",
       "id": "6",
       "bbox": [
         802,
@@ -394,7 +394,7 @@
       "order": 7,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/fa9w3m94",
+      "aid": "sh/hcrmhk3q",
       "id": "7",
       "bbox": [
         802,
@@ -457,7 +457,7 @@
       "order": 8,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/8z25kb6x",
+      "aid": "sh/6xkf6dcb",
       "id": "8",
       "bbox": [
         804,
@@ -521,7 +521,7 @@
       "order": 9,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/1gvy90je",
+      "aid": "sh/zed8v6ps",
       "id": "9",
       "bbox": [
         88,
@@ -581,7 +581,7 @@
       "order": 10,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/pg3ex0nu",
+      "aid": "sh/n29gr2p8",
       "id": "10",
       "bbox": [
         66,
@@ -598,7 +598,7 @@
       "order": 11,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/wval87ed",
+      "aid": "sh/yhgn29gr",
       "id": "11",
       "bbox": [
         88,
@@ -658,7 +658,7 @@
       "order": 12,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/7adsji5s",
+      "aid": "sh/58z25kb6",
       "id": "12",
       "bbox": [
         66,
@@ -675,7 +675,7 @@
       "order": 13,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/epkzupwb",
+      "aid": "sh/gn29gr2p",
       "id": "13",
       "bbox": [
         88,
@@ -735,7 +735,7 @@
       "order": 14,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/psfil0rq",
+      "aid": "sh/nuxc3ylc",
       "id": "14",
       "bbox": [
         66,
@@ -752,7 +752,7 @@
       "order": 15,
       "kind": "shape",
       "scope": "slide",
-      "aid": "sh/w7mp0bi9",
+      "aid": "sh/y90je9cv",
       "id": "15",
       "bbox": [
         64,

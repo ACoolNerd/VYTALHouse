@@ -4,6 +4,7 @@
 - Desktop screenshot: quality/screenshots/home-desktop.png
 - Mobile screenshot: quality/screenshots/home-mobile.png
 - Lead form screenshot: quality/screenshots/lead-form-submitted.png
+- Portal screenshot: quality/screenshots/portal-dashboard.png
 - Status: PASS
 
 ## Failures

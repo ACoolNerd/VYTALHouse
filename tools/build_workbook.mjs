@@ -17,6 +17,10 @@ const vendors = JSON.parse(await fs.readFile(path.join(root, "data/seeds/vendors
 const memberships = JSON.parse(await fs.readFile(path.join(root, "data/seeds/memberships.json"), "utf8"));
 const socialPosts = JSON.parse(await fs.readFile(path.join(root, "data/seeds/socialPosts.json"), "utf8"));
 const services = JSON.parse(await fs.readFile(path.join(root, "data/seeds/services.json"), "utf8"));
+const launchGoals = JSON.parse(await fs.readFile(path.join(root, "data/seeds/launchGoals.json"), "utf8"));
+const risks = JSON.parse(await fs.readFile(path.join(root, "data/seeds/riskRegister.json"), "utf8"));
+const integrations = JSON.parse(await fs.readFile(path.join(root, "data/seeds/integrationReadiness.json"), "utf8"));
+const locations = JSON.parse(await fs.readFile(path.join(root, "data/seeds/locations.json"), "utf8"));
 
 const workbook = Workbook.create();
 const dashboard = workbook.worksheets.add("Dashboard");
@@ -25,6 +29,7 @@ const revenue = workbook.worksheets.add("Revenue_Model");
 const vendorSheet = workbook.worksheets.add("Vendor_Outreach");
 const socialSheet = workbook.worksheets.add("Social_Calendar");
 const sources = workbook.worksheets.add("Sources_Audit");
+const readiness = workbook.worksheets.add("Project_Readiness");
 const checks = workbook.worksheets.add("Checks");
 
 for (const sheet of workbook.worksheets.items) {
@@ -62,8 +67,9 @@ function body(range) {
 }
 
 title(dashboard, "VYTAL House Launch Dashboard");
-dashboard.getRange("A3:B8").values = [
+dashboard.getRange("A3:B9").values = [
   ["Metric", "Value"],
+  ["Target location", locations[0].metadata.fullAddress],
   ["Target quality gate", 97],
   ["Current package score", 100],
   ["Modeled membership MRR", "=Revenue_Model!D7"],
@@ -71,9 +77,9 @@ dashboard.getRange("A3:B8").values = [
   ["Draft social posts", socialPosts.length],
 ];
 header(dashboard.getRange("A3:B3"));
-body(dashboard.getRange("A4:B8"));
-dashboard.getRange("B6:B6").format.numberFormat = "$#,##0";
-dashboard.getRange("B2:B8").format.columnWidthPx = 180;
+body(dashboard.getRange("A4:B9"));
+dashboard.getRange("B7:B7").format.numberFormat = "$#,##0";
+dashboard.getRange("B2:B9").format.columnWidthPx = 180;
 dashboard.getRange("A1:H1").format.columnWidthPx = 120;
 dashboard.getRange("F1:F1").format.columnWidthPx = 150;
 
@@ -178,19 +184,32 @@ sources.getRange("A3:D13").values = [
 header(sources.getRange("A3:D3"));
 body(sources.getRange("A4:D13"));
 
+title(readiness, "Project Readiness");
+readiness.getRange("A3:E18").values = [
+  ["Record", "Owner", "Status", "Gate", "Control"],
+  ...launchGoals.map((goal) => [goal.name, goal.owner, goal.status, goal.metadata.gate, goal.metadata.due]),
+  ...risks.map((risk) => [risk.name, risk.owner, risk.status, risk.metadata.severity, risk.metadata.control]),
+  ...integrations.map((integration) => [integration.name, integration.owner, integration.status, integration.metadata.provider, integration.metadata.gate]),
+];
+header(readiness.getRange("A3:E3"));
+body(readiness.getRange("A4:E18"));
+readiness.getRange("A1:A1").format.columnWidthPx = 260;
+readiness.getRange("E1:E1").format.columnWidthPx = 330;
+
 title(checks, "Quality Checks");
-checks.getRange("A3:F10").values = [
+checks.getRange("A3:F11").values = [
   ["Check", "Actual", "Expected", "Difference", "Tolerance", "Status"],
   ["Quality gate score", 100, 97, "=B4-C4", 0, '=IF(B4>=C4,"OK","FAIL")'],
   ["Vendor records", vendors.length, 4, "=B5-C5", 0, '=IF(B5>=C5,"OK","FAIL")'],
   ["Service records", services.length, 6, "=B6-C6", 0, '=IF(B6>=C6,"OK","FAIL")'],
   ["Social posts", socialPosts.length, 10, "=B7-C7", 0, '=IF(B7>=C7,"OK","FAIL")'],
   ["Membership MRR", "=Revenue_Model!D7", 179700, "=B8-C8", 0, '=IF(ABS(D8)<=1,"OK","CHECK")'],
-  ["No live external mutation", 0, 0, "=B9-C9", 0, '=IF(B9=C9,"OK","FAIL")'],
-  ["Model status", "", "", "", "", '=IF(COUNTIF(F4:F9,"FAIL")=0,"OK","FAIL")'],
+  ["Launch goals", launchGoals.length, 6, "=B9-C9", 0, '=IF(B9>=C9,"OK","FAIL")'],
+  ["No live external mutation", 0, 0, "=B10-C10", 0, '=IF(B10=C10,"OK","FAIL")'],
+  ["Model status", "", "", "", "", '=IF(COUNTIF(F4:F10,"FAIL")=0,"OK","FAIL")'],
 ];
 header(checks.getRange("A3:F3"));
-body(checks.getRange("A4:F10"));
+body(checks.getRange("A4:F11"));
 checks.getRange("B8:D8").format.numberFormat = "$#,##0";
 
 const renders = [
@@ -198,7 +217,8 @@ const renders = [
   ["Revenue_Model", "A1:E9"],
   ["Vendor_Outreach", "A1:H8"],
   ["Social_Calendar", "A1:G14"],
-  ["Checks", "A1:F11"],
+  ["Project_Readiness", "A1:E19"],
+  ["Checks", "A1:F12"],
 ];
 for (const [sheetName, range] of renders) {
   const png = await workbook.render({ sheetName, range, scale: 1, format: "png" });

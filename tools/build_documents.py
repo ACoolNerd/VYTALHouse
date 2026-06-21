@@ -97,7 +97,7 @@ def build_dossier() -> Path:
     set_font(subtitle.add_run("Recharge. Recover. Evolve."), 13, GOLD, True)
     meta = doc.add_paragraph()
     meta.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    set_font(meta.add_run("Full Manifest Dossier | Local Draft Package | June 19, 2026"), 9.5, MUTED)
+    set_font(meta.add_run("Full Manifest Dossier | Local Draft Package | June 21, 2026"), 9.5, MUTED)
 
     add_heading(doc, "Executive Control Summary")
     add_body(
@@ -108,8 +108,11 @@ def build_dossier() -> Path:
         doc,
         [
             "Brand is locked to VYTAL House, the tagline Recharge. Recover. Evolve., and owners Chauncey Gardner and Kathy Ha.",
+            "Target flagship location is 6000 Merriweather Drive, Columbia, MD 21044, pending lease, zoning, utilities, permits, and professional review.",
             "The software MVP uses Next.js, React, Firebase-ready rules, seeded records, and safe prototype forms.",
+            "The command portal adds local role login for owner, admin, clinical, operations, marketing, vendor, and member review.",
             "The operating package includes Notion importables, Figma tokens, vendor outreach, social calendar, source manifest, and delivery manifest.",
+            "Firebase and Google Cloud readiness are manifested as draft configuration and document-vault plans only; no live resources are created.",
             "The quality gate requires a score of at least 97/100 before runtime handoff.",
         ],
     )
@@ -130,6 +133,7 @@ def build_dossier() -> Path:
         doc,
         ["Service", "Purpose", "Gate"],
         [
+            ["Target Location", "6000 Merriweather Drive, Columbia, MD 21044", "Lease and zoning review"],
             ["Hyperbaric Oxygen Therapy", "Anchor clinical recovery modality", "Clinical review"],
             ["IV and NAD+ Lounge", "High-touch lounge treatment flow", "Medical director review"],
             ["Red Light Therapy", "Photobiomodulation and recovery", "Protocol review"],
@@ -162,6 +166,7 @@ def build_dossier() -> Path:
         doc,
         [
             "Vendor and modality claims are anchored to source URLs listed in docs/01_SOURCE_MANIFEST.md.",
+            "Project-ready goals, Firebase readiness, Google Cloud file vault planning, and Desktop/Downloads import evidence are tracked in docs/21 through docs/23.",
             "Maryland entity formation details require SDAT/Business Express review before filing.",
             "HHS HIPAA guidance is treated as a privacy reference; no PHI is collected in the prototype.",
             "The CAD package is conceptual only and requires architect/engineer conversion before permits.",
@@ -214,19 +219,20 @@ def build_business_plan() -> Path:
     doc = new_branded_doc(
         "VYTAL HOUSE BUSINESS PLAN",
         "Recharge. Recover. Evolve.",
-        "Draft operating plan | June 19, 2026 | Professional review required",
+        "Draft operating plan | June 21, 2026 | Professional review required",
     )
 
     add_heading(doc, "Executive Summary")
     add_body(
         doc,
-        "VYTAL House is a premium recovery and wellness club for high-performance members in Maryland. The concept combines clinical-grade recovery modalities, a recurring membership model, concierge operations, and a dark cinematic lounge experience.",
+        "VYTAL House is a premium recovery and wellness club for high-performance members in Maryland. The target flagship location is 6000 Merriweather Drive, Columbia, MD 21044, pending lease, zoning, utilities, permits, and professional review. The concept combines clinical-grade recovery modalities, a recurring membership model, concierge operations, and a dark cinematic lounge experience.",
     )
     add_bullets(
         doc,
         [
             "Brand: VYTAL House only.",
             "Owners: Chauncey Gardner and Kathy Ha.",
+            "Target site: 6000 Merriweather Drive, Columbia, MD 21044.",
             "Promise: Recharge. Recover. Evolve.",
             "Guardrails: no live payments, no protected health information, no vendor sending, and no legal filing without explicit approval.",
         ],
@@ -238,6 +244,7 @@ def build_business_plan() -> Path:
         ["Dimension", "Plan"],
         [
             ["Category", "Recovery, longevity, and wellness club"],
+            ["Target location", "6000 Merriweather Drive, Columbia, MD 21044"],
             ["Primary users", "Founders, artists, athletes, executives, wellness clients, and recovery-focused members"],
             ["Differentiator", "Design-forward facility, recurring membership revenue, clinical oversight, and high-touch concierge flow"],
             ["Experience", "Private, cinematic, quiet, and operationally controlled"],
@@ -290,7 +297,8 @@ def build_business_plan() -> Path:
             ["Lease and due diligence", "Confirm site, zoning, utilities, and tenant improvement terms", "owner", "Legal and lease review"],
             ["Medical structure", "Define clinical roles, protocols, consent, and pharmacy workflows", "clinical", "Medical counsel approval"],
             ["Vendor procurement", "Request quotes, install needs, warranties, and maintenance terms", "operations", "Owner quote approval"],
-            ["Digital platform", "Launch website, member app, admin, vendor CRM, and source-backed content", "admin", "Quality score >= 97"],
+            ["Digital platform", "Launch website, local role login, command portal, member app, admin, vendor CRM, and source-backed content", "admin", "Quality score >= 97"],
+            ["Cloud readiness", "Prepare Firebase staging and Google Cloud file vault plan", "admin", "Owner approval before live resource creation"],
             ["Founder launch", "Prepare presale material and social calendar", "marketing", "Claims and payment approval"],
             ["Controlled opening", "Open with a limited member cohort and track utilization", "operations", "Staff and compliance readiness"],
         ],
@@ -316,13 +324,13 @@ def build_brd() -> Path:
     doc = new_branded_doc(
         "VYTAL HOUSE BRD",
         "Business Requirements Document",
-        "Platform scope | June 19, 2026 | Draft for stakeholder review",
+        "Platform scope | June 21, 2026 | Draft for stakeholder review",
     )
 
     add_heading(doc, "Goal")
     add_body(
         doc,
-        "Launch a full-stack VYTAL House platform that supports marketing, lead capture, booking interest, vendor procurement, internal operations, source-backed planning, and quality-gated launch control.",
+        "Launch a full-stack VYTAL House platform that supports marketing, lead capture, local role login, a command portal, booking interest, vendor procurement, internal operations, source-backed planning, Firebase/Google Cloud readiness, and quality-gated launch control for the target Columbia, Maryland location.",
     )
 
     add_heading(doc, "In Scope")
@@ -330,11 +338,13 @@ def build_brd() -> Path:
         doc,
         [
             "Public website for brand, services, memberships, facility concept, and contact.",
+            "Location record for 6000 Merriweather Drive, Columbia, MD 21044.",
+            "Local prototype login and command portal for role-filtered project review.",
             "Member app surface for seeded bookings, session requests, education, and membership context.",
             "Admin dashboard for launch readiness, quality scoring, leads, bookings, vendors, content, and documents.",
             "Vendor CRM with procurement status, contact records, quote stage, and outreach template storage.",
             "Notion-ready Markdown/CSV importables and Figma-ready tokens/assets.",
-            "Firebase-ready security rules, indexes, storage rules, and governed seed data.",
+            "Firebase-ready security rules, indexes, storage rules, Google Cloud file vault manifest, and governed seed data.",
         ],
     )
 
@@ -346,7 +356,7 @@ def build_brd() -> Path:
             "Live vendor email sending.",
             "Protected health information collection.",
             "Legal filings or state portal submissions.",
-            "Live Notion or Figma workspace creation.",
+            "Live Firebase, Google Cloud, Notion, or Figma workspace creation.",
         ],
     )
 
@@ -360,6 +370,10 @@ def build_brd() -> Path:
             ["bookings", "Booking interest and operational scheduling", "operations", "Audit event required"],
             ["services", "Source-backed service catalog", "clinical", "Claims review"],
             ["vendors", "Vendor pipeline and procurement", "operations", "No sending without approval"],
+            ["locations", "Target site and diligence controls", "operations", "Lease and zoning review"],
+            ["launchGoals", "Project-ready goals", "admin", "Owner/professional approval"],
+            ["riskRegister", "Launch risk controls", "admin", "Review cadence"],
+            ["integrationReadiness", "Firebase, Google Cloud, GitHub, Notion, and Figma readiness", "admin", "No live resource mutation"],
             ["contentItems", "Website and wiki content", "marketing", "Brand isolation review"],
             ["socialPosts", "Social calendar", "marketing", "Claims review"],
             ["leads", "Interest capture", "admin", "No sensitive medical data"],
@@ -376,6 +390,7 @@ def build_brd() -> Path:
         ["Surface", "Allowed Roles", "Controls"],
         [
             ["Public website", "owner, admin, marketing, operations, member", "Read-only content and lead form"],
+            ["Command portal", "owner, admin, operations, clinical, marketing, vendor, member", "Role-filtered local prototype access"],
             ["Member app", "owner, admin, member", "Prototype booking interest only"],
             ["Admin dashboard", "owner, admin, operations", "Quality and launch readiness only"],
             ["Clinical review", "owner, clinical", "Protocol and claims governance"],
@@ -389,9 +404,11 @@ def build_brd() -> Path:
         doc,
         [
             "Users can browse services, memberships, facility zones, and source-backed reference content.",
+            "Users can sign into a local prototype session by role for project review.",
             "Leads can submit interest through a safe endpoint with no medical intake fields.",
             "Members can view seeded bookings and request booking interest.",
             "Admins can scan quality evidence and operational readiness records.",
+            "Admins can view Firebase, Google Cloud, GitHub, Notion, and Figma readiness records.",
             "Operations can manage vendor quote stages and source notes.",
             "Marketing can manage social posts and content readiness.",
         ],
@@ -419,7 +436,7 @@ def build_articles_draft() -> Path:
     doc = new_branded_doc(
         "VYTAL HOUSE ENTITY FORMATION STACK",
         "Articles of Organization Templates",
-        "Maryland filing drafts | June 19, 2026 | Not legal advice",
+        "Maryland filing drafts | June 21, 2026 | Not legal advice",
     )
 
     add_heading(doc, "Legal Notice")
@@ -434,6 +451,7 @@ def build_articles_draft() -> Path:
         ["Field", "Status", "Control"],
         [
             ["Entity names and availability", "To confirm", "Owner and counsel review"],
+            ["Target operating location", "6000 Merriweather Drive, Columbia, MD 21044", "Lease, zoning, and counsel review"],
             ["Principal Maryland office addresses", "To confirm", "Do not publish until approved"],
             ["Resident agent name and physical Maryland address", "To confirm", "Resident agent consent required"],
             ["Organizer signatures", "To confirm", "Owner approval required"],

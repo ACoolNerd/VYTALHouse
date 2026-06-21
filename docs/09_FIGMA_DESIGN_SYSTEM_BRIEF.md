@@ -1,7 +1,7 @@
 # 09 - Figma Design System Brief
 
 ## Design Intent
-VYTAL House should feel like a premium spacecraft lounge: dark atmospheric surfaces, crisp white typography, chrome and warm gold accents, controlled red therapy glow, and small cyan/lavender system highlights.
+VYTAL House should feel like a premium spacecraft lounge: dark atmospheric surfaces, crisp white typography, chrome and warm gold accents, controlled red therapy glow, and small cyan/green system highlights.
 
 ## Screens To Create
 - Website home.

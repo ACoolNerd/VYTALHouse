@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 const links = [
+  ["Portal", "/portal"],
   ["Services", "/services"],
   ["Memberships", "/memberships"],
   ["Facility", "/facility"],
@@ -8,6 +9,7 @@ const links = [
   ["Admin", "/admin"],
   ["Vendor CRM", "/vendor"],
   ["Ownership", "/ownership"],
+  ["Login", "/login"],
 ];
 
 export function Nav() {
