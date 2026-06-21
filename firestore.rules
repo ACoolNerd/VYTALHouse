@@ -1,0 +1,45 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function role() { return signedIn() ? request.auth.token.role : null; }
+    function privileged() { return role() in ['owner', 'admin', 'operations']; }
+    function clinical() { return role() in ['owner', 'admin', 'clinical']; }
+
+    // Public waitlist entries are written by the server using Firebase Admin.
+    // Direct browser access is intentionally denied.
+    match /leads/{leadId} {
+      allow read: if privileged();
+      allow write: if false;
+    }
+
+    match /users/{userId} {
+      allow read: if signedIn() && (request.auth.uid == userId || privileged());
+      allow create: if signedIn() && request.auth.uid == userId;
+      allow update: if signedIn() && (request.auth.uid == userId || privileged());
+      allow delete: if role() == 'owner';
+    }
+
+    match /bookings/{bookingId} {
+      allow read: if signedIn() && (resource.data.memberId == request.auth.uid || privileged());
+      allow create: if signedIn() && request.resource.data.memberId == request.auth.uid;
+      allow update: if signedIn() && (resource.data.memberId == request.auth.uid || privileged());
+      allow delete: if privileged();
+    }
+
+    // Clinical records must never be exposed from a client session until the
+    // clinical workflow is legally approved and separately implemented.
+    match /clinical_records/{recordId} {
+      allow read, write: if false;
+    }
+
+    match /audit_logs/{logId} {
+      allow read: if role() in ['owner', 'admin'];
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
