@@ -1,0 +1,18 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    function signedIn() { return request.auth != null; }
+    function privileged() { return signedIn() && request.auth.token.role in ['owner', 'admin', 'operations']; }
+
+    // No health or clinical documents are enabled in this initial production
+    // baseline. Enable a purpose-specific path only after clinical/legal review.
+    match /marketing/{allPaths=**} {
+      allow read: if true;
+      allow write: if privileged();
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
