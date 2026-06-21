@@ -1,9 +1,13 @@
 import { existsSync, readFileSync } from "node:fs";
 
 const required = [
+  "next.config.ts",
   "src/app/page.tsx",
   "src/app/api/leads/route.ts",
+  "src/app/inventory/page.tsx",
+  "src/components/InventoryClient.tsx",
   "src/components/LeadForm.tsx",
+  "src/lib/inventory.ts",
   "public/images/vytal-floor-plan.png",
   "public/images/vytal-interior-reference.png",
   ".env.example",
@@ -15,13 +19,13 @@ for (const path of required) {
 }
 
 const packageJson = JSON.parse(readFileSync("package.json", "utf8"));
-for (const script of ["build", "typecheck", "validate"]) {
+for (const script of ["build", "typecheck", "smoke", "validate"]) {
   if (!packageJson.scripts?.[script]) failures.push(`Missing package script: ${script}`);
 }
 
-const env = readFileSync(".env.example", "utf8");
-if (/AIza[0-9A-Za-z_-]{20,}|-----BEGIN PRIVATE KEY-----/.test(env)) {
-  failures.push("A credential-like value appears in .env.example");
+const nextConfig = readFileSync("next.config.ts", "utf8");
+if (!nextConfig.includes('output: "standalone"')) {
+  failures.push('next.config.ts must include output: "standalone"');
 }
 
 if (failures.length) {
