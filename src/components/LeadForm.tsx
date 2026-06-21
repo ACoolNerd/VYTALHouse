@@ -23,7 +23,8 @@ export function LeadForm() {
       if (!response.ok) throw new Error("lead_capture_failed");
       setState("sent");
       setMessage("Inquiry received. Our concierge team will follow up soon.");
-    } catch {
+    } catch (error) {
+      console.error("lead_form_submit_failed", error);
       setState("error");
       setMessage("Your inquiry could not be submitted. Please try again shortly.");
     }
