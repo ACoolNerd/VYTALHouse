@@ -122,6 +122,7 @@ Validated in this repo:
 - [Firebase and Google Cloud Manifest](docs/22_FIREBASE_GOOGLE_CLOUD_MANIFEST.md)
 - [Desktop and Downloads Import Audit](docs/23_DESKTOP_DOWNLOADS_IMPORT_AUDIT.md)
 - [Concept to Creation Manifest](docs/24_CONCEPT_TO_CREATION_MANIFEST.md)
+- [Enterprise AI Agent Manifest](docs/25_ENTERPRISE_AI_AGENT_MANIFEST.md)
 - [Delivery Manifest](docs/14_DELIVERY_MANIFEST.md)
 - [GitHub Handoff](docs/15_GITHUB_HANDOFF.md)
 
