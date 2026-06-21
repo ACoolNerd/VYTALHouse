@@ -1,0 +1,93 @@
+[
+  {
+    "id": "service-hyperbaric-oxygen-therapy",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "Hyperbaric Oxygen Therapy",
+    "status": "planned",
+    "owner": "clinical",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "OxyPro Sovereign and EXS-64 inspired protocols with concierge oversight.",
+      "category": "Clinical recovery"
+    }
+  },
+  {
+    "id": "service-iv-and-nadplus-lounge",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "IV and NAD+ Lounge",
+    "status": "planned",
+    "owner": "clinical",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "Premium chair lounge for hydration, vitamin, NAD+, and partner-prescribed protocols.",
+      "category": "Clinical service"
+    }
+  },
+  {
+    "id": "service-red-light-therapy",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "Red Light Therapy",
+    "status": "planned",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "Photobiomodulation room with full-body and targeted red light sessions.",
+      "category": "Recovery"
+    }
+  },
+  {
+    "id": "service-cryotherapy",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "Cryotherapy",
+    "status": "planned",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "Cold exposure service lane with staff safety checks and waiver workflow.",
+      "category": "Recovery"
+    }
+  },
+  {
+    "id": "service-sauna-and-cold-plunge",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "Sauna and Cold Plunge",
+    "status": "planned",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "Contrast therapy suite with infrared sauna and plunge scheduling.",
+      "category": "Thermal contrast"
+    }
+  },
+  {
+    "id": "service-float-and-dry-float",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "Float and Dry Float",
+    "status": "planned",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "Float pod and dry float concepts for decompression, stress relief, and recovery.",
+      "category": "Restoration"
+    }
+  },
+  {
+    "id": "service-compression-and-recovery-zone",
+    "entity": "VYTAL House",
+    "type": "service",
+    "name": "Compression and Recovery Zone",
+    "status": "planned",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "description": "Compression boots, mobility, recovery chairs, and future expansion lane.",
+      "category": "Member lounge"
+    }
+  }
+]

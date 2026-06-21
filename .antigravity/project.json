@@ -1,0 +1,8 @@
+{
+  "name": "vytal-house",
+  "language": "typescript",
+  "framework": "nextjs",
+  "testCommand": "npm run quality",
+  "buildCommand": "npm run build",
+  "devServer": "npm run dev"
+}

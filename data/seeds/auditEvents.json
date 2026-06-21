@@ -1,0 +1,15 @@
+[
+  {
+    "id": "audit-package-created",
+    "entity": "VYTAL House",
+    "type": "auditEvent",
+    "name": "Package generated",
+    "status": "complete",
+    "owner": "admin",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "event": "local package scaffold generated",
+      "externalStateChanged": false
+    }
+  }
+]

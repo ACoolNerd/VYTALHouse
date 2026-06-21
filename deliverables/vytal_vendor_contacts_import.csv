@@ -1,0 +1,5 @@
+id,entity,type,name,status,owner,updatedAt,product,website,phone,email,priority
+vendor-oxycell-sovereign,VYTAL House,vendor,Oxycell,quote-needed,operations,2026-06-19,OxyPro Sovereign Hyperbaric Chamber,https://www.oxycell.com,(877) 750-0660,,Tier 1 anchor equipment
+vendor-oxygen-health-systems-exs64,VYTAL House,vendor,Oxygen Health Systems,quote-needed,operations,2026-06-19,EXS-64 Exercise-Ready Hyperbaric Chamber,https://o2-o3.com,,info@o2-o3.com,Tier 1 anchor equipment
+vendor-vacuactiv-bodyshape,VYTAL House,vendor,VacuActiv,quote-needed,operations,2026-06-19,Bodyshape V2 and fitness devices,https://vacuactiv.com,+1 (213) 554-7641,contact@vacuactiv.com,Recovery zone equipment
+vendor-eleve-health-modalities,VYTAL House,vendor,EleveHealth,quote-needed,operations,2026-06-19,"HBOT, dry float beds, PEMF, vibro-acoustic systems",https://elevehealth.com,1.888.537.7087,info@elevehealth.com,Multi-modality supplier

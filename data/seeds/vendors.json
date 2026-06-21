@@ -1,0 +1,66 @@
+[
+  {
+    "id": "vendor-oxycell-sovereign",
+    "entity": "VYTAL House",
+    "type": "vendor",
+    "name": "Oxycell",
+    "status": "quote-needed",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "product": "OxyPro Sovereign Hyperbaric Chamber",
+      "website": "https://www.oxycell.com",
+      "phone": "(877) 750-0660",
+      "email": "",
+      "priority": "Tier 1 anchor equipment"
+    }
+  },
+  {
+    "id": "vendor-oxygen-health-systems-exs64",
+    "entity": "VYTAL House",
+    "type": "vendor",
+    "name": "Oxygen Health Systems",
+    "status": "quote-needed",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "product": "EXS-64 Exercise-Ready Hyperbaric Chamber",
+      "website": "https://o2-o3.com",
+      "phone": "",
+      "email": "info@o2-o3.com",
+      "priority": "Tier 1 anchor equipment"
+    }
+  },
+  {
+    "id": "vendor-vacuactiv-bodyshape",
+    "entity": "VYTAL House",
+    "type": "vendor",
+    "name": "VacuActiv",
+    "status": "quote-needed",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "product": "Bodyshape V2 and fitness devices",
+      "website": "https://vacuactiv.com",
+      "phone": "+1 (213) 554-7641",
+      "email": "contact@vacuactiv.com",
+      "priority": "Recovery zone equipment"
+    }
+  },
+  {
+    "id": "vendor-eleve-health-modalities",
+    "entity": "VYTAL House",
+    "type": "vendor",
+    "name": "EleveHealth",
+    "status": "quote-needed",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "product": "HBOT, dry float beds, PEMF, vibro-acoustic systems",
+      "website": "https://elevehealth.com",
+      "phone": "1.888.537.7087",
+      "email": "info@elevehealth.com",
+      "priority": "Multi-modality supplier"
+    }
+  }
+]

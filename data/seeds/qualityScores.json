@@ -1,0 +1,14 @@
+[
+  {
+    "id": "quality-initial-target",
+    "entity": "VYTAL House",
+    "type": "qualityScore",
+    "name": "Pre-run gate target",
+    "status": "target",
+    "owner": "admin",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "minimumScore": 97
+    }
+  }
+]

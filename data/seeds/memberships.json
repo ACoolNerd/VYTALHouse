@@ -1,0 +1,44 @@
+[
+  {
+    "id": "membership-core",
+    "entity": "VYTAL House",
+    "type": "membership",
+    "name": "Core",
+    "status": "draft",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "monthlyPrice": 299,
+      "projectedMembers": 150,
+      "benefits": "Red light, compression, recovery lounge, member education"
+    }
+  },
+  {
+    "id": "membership-elite",
+    "entity": "VYTAL House",
+    "type": "membership",
+    "name": "Elite",
+    "status": "draft",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "monthlyPrice": 599,
+      "projectedMembers": 100,
+      "benefits": "Unlimited recovery services, monthly IV/NAD+ credit, booking priority"
+    }
+  },
+  {
+    "id": "membership-black",
+    "entity": "VYTAL House",
+    "type": "membership",
+    "name": "Black",
+    "status": "draft",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "monthlyPrice": 1499,
+      "projectedMembers": 50,
+      "benefits": "Concierge scheduling, quarterly labs, peptide optimization, VIP access"
+    }
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "agent": {
+    "defaultModel": "gemini-3-pro",
+    "temperature": 0.2,
+    "maxTokens": 4096
+  },
+  "verification": {
+    "autoRunTests": true,
+    "requireScreenshots": true
+  },
+  "artifacts": {
+    "location": ".antigravity/brain",
+    "autoCommit": false
+  }
+}

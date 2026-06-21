@@ -1,0 +1,40 @@
+{
+  "brand": {
+    "name": "VYTAL House",
+    "entity": "VYTAL House LLC",
+    "tagline": "Recharge. Recover. Evolve.",
+    "owners": "Chauncey Gardner and Kathy Ha",
+    "market": "Maryland recovery and wellness club"
+  },
+  "colors": {
+    "void": "#07090d",
+    "panel": "#111722",
+    "panel2": "#18202d",
+    "cream": "#f6f0e6",
+    "white": "#ffffff",
+    "gold": "#c8a46b",
+    "cyan": "#7de3ff",
+    "lavender": "#c9b8ff",
+    "red": "#f15f5f",
+    "green": "#6ee7b7"
+  },
+  "typography": {
+    "display": "Aptos Display",
+    "body": "Aptos",
+    "numeric": "Aptos",
+    "letterSpacing": 0
+  },
+  "radii": {
+    "card": 8,
+    "button": 999,
+    "panel": 8
+  },
+  "spacing": {
+    "xs": 4,
+    "sm": 8,
+    "md": 16,
+    "lg": 24,
+    "xl": 40,
+    "xxl": 64
+  }
+}

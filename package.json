@@ -1,0 +1,32 @@
+{
+  "name": "vytal-house",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit --pretty false",
+    "typecheck": "tsc --noEmit --pretty false",
+    "validate": "npm run lint && npm run typecheck && npm run build",
+    "build:artifacts": ".venv/bin/python3 tools/build_documents.py && node tools/build_workbook.mjs && node tools/build_deck.mjs",
+    "quality": ".venv/bin/python3 tools/verify_quality.py",
+    "visual": "node tools/visual_check.mjs"
+  },
+  "dependencies": {
+    "firebase": "^11.10.0",
+    "lucide-react": "^0.468.0",
+    "next": "^15.3.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.1",
+    "playwright": "^1.61.0",
+    "playwright": "^1.57.0",
+    "typescript": "^5.7.2"
+  }
+}

@@ -1,0 +1,29 @@
+
+VYTAL House Code Stack and Repository Structure
+
+/README.md
+  Overview of the project, setup instructions, contribution guidelines and licensing.
+
+/frontend/
+  A Next.js application using React and TypeScript. Configured with Tailwind CSS for styling and Headless UI for accessibility. Contains pages for the home page, membership plans, science articles, virtual tour, blog and contact forms. Uses API routes to proxy calls to the backend when necessary.
+
+/mobile/
+  A React Native (Expo) app or Flutter project with shared branding. Includes screens for authentication, member dashboard, booking calendar, health metrics, content library and settings. Leverages shared design tokens exported from Figma.
+
+/backend/
+  Node.js/NestJS project exposing GraphQL and REST endpoints. Uses Prisma ORM with a PostgreSQL database. Handles authentication (JWT), scheduling logic, payment events via Stripe webhooks, inventory management and CRM functions.
+
+/cms/
+  Configuration files and schemas for the headless CMS (Sanity or Prismic). Includes content models for pages, articles, FAQs, testimonials and modal pop‑ups.
+
+/scripts/
+  Utility scripts for seeding the database, migrating schemas, and exporting/importing data. Includes scripts to sync design tokens from Figma to the codebase.
+
+/infrastructure/
+  Dockerfiles, docker‑compose.yml and Kubernetes manifests (if needed) for local development and deployment. Contains Terraform or Pulumi configuration for provisioning cloud resources (database, storage, secrets management) on AWS or DigitalOcean.
+
+/.github/workflows/
+  GitHub Actions pipelines for linting, testing, building and deploying the frontend and backend to Vercel or other hosting providers. Includes automatic security scans and dependabot configuration.
+
+/test/
+  Unit and integration tests written with Jest (for Node.js/React) or Dart/Flutter test frameworks. End‑to‑end tests using Cypress or Detox for user flows such as membership sign‑up and booking.

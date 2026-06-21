@@ -1,0 +1,9 @@
+id,entity,type,name,status,owner,updatedAt,phase
+project-01,VYTAL House,projectTask,Lease package and official floor plan,blocked-on-external,operations,2026-06-19,Real estate
+project-02,VYTAL House,projectTask,Medical director and compliance counsel,blocked-on-external,clinical,2026-06-19,Medical
+project-03,VYTAL House,projectTask,Vendor quote requests,ready-draft,operations,2026-06-19,Procurement
+project-04,VYTAL House,projectTask,Website MVP,in-progress,admin,2026-06-19,Technology
+project-05,VYTAL House,projectTask,Member app prototype,in-progress,admin,2026-06-19,Technology
+project-06,VYTAL House,projectTask,Founder membership campaign,draft,marketing,2026-06-19,Launch
+project-07,VYTAL House,projectTask,Notion import,approval-needed,admin,2026-06-19,Operations
+project-08,VYTAL House,projectTask,Figma live file,approval-needed,admin,2026-06-19,Design

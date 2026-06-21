@@ -1,0 +1,152 @@
+[
+  {
+    "id": "social-2026-07-01",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "The VYTAL signal",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-01",
+      "channel": "Instagram",
+      "pillar": "Brand reveal",
+      "brief": "Introduce name, tagline, spacecraft ambience, and founder member waitlist."
+    }
+  },
+  {
+    "id": "social-2026-07-03",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Step into recovery",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-03",
+      "channel": "TikTok",
+      "pillar": "Facility concept",
+      "brief": "Short video concept using floor plan zones and ambient lounge references."
+    }
+  },
+  {
+    "id": "social-2026-07-05",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Why VYTAL House",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-05",
+      "channel": "LinkedIn",
+      "pillar": "Founder note",
+      "brief": "Business-focused recovery club thesis and Maryland launch intent."
+    }
+  },
+  {
+    "id": "social-2026-07-08",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "HBOT explained",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-08",
+      "channel": "Instagram",
+      "pillar": "Therapy education",
+      "brief": "Source-backed carousel on chamber experience and member journey."
+    }
+  },
+  {
+    "id": "social-2026-07-10",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Founder member briefing",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-10",
+      "channel": "Newsletter",
+      "pillar": "Waitlist",
+      "brief": "Invite premium founding members to book a tour consultation."
+    }
+  },
+  {
+    "id": "social-2026-07-12",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Engineering the room",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-12",
+      "channel": "Instagram",
+      "pillar": "Vendor spotlight",
+      "brief": "Show vendor inquiry stage without claiming purchases."
+    }
+  },
+  {
+    "id": "social-2026-07-15",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Medical oversight matters",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-15",
+      "channel": "LinkedIn",
+      "pillar": "Operations",
+      "brief": "Explain compliance-first service design and professional review gates."
+    }
+  },
+  {
+    "id": "social-2026-07-18",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Recharge. Recover. Evolve.",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-18",
+      "channel": "TikTok",
+      "pillar": "Lifestyle",
+      "brief": "Fast cuts: lounge, IV chairs, red light, cold plunge, compression."
+    }
+  },
+  {
+    "id": "social-2026-07-22",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Core, Elite, Black",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-22",
+      "channel": "Instagram",
+      "pillar": "Membership",
+      "brief": "Explain tiers and waitlist priority."
+    }
+  },
+  {
+    "id": "social-2026-07-29",
+    "entity": "VYTAL House",
+    "type": "socialPost",
+    "name": "Build-out roadmap",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "publishDate": "2026-07-29",
+      "channel": "Newsletter",
+      "pillar": "Launch status",
+      "brief": "Lease, equipment, medical setup, design, pre-sales next steps."
+    }
+  }
+]

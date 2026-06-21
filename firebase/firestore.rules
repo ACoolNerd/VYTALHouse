@@ -1,0 +1,54 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function role() { return signedIn() ? request.auth.token.role : "public"; }
+    function isOwnerOrAdmin() { return role() in ["owner", "admin"]; }
+    function isClinical() { return role() in ["owner", "clinical"]; }
+    function isOps() { return role() in ["owner", "admin", "operations"]; }
+    function hasSevenFields() {
+      return request.resource.data.keys().hasAll(["id", "entity", "type", "name", "status", "owner", "updatedAt"]) &&
+        request.resource.data.entity == "VYTAL House";
+    }
+
+    match /services/{id} {
+      allow read: if true;
+      allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /memberships/{id} {
+      allow read: if true;
+      allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /vendors/{id} {
+      allow read, write: if isOps() && hasSevenFields();
+    }
+    match /bookings/{id} {
+      allow read: if signedIn();
+      allow write: if (role() in ["owner", "admin", "operations", "member"]) && hasSevenFields();
+    }
+    match /members/{id} {
+      allow read, write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /contentItems/{id} {
+      allow read: if true;
+      allow write: if role() in ["owner", "admin", "marketing"] && hasSevenFields();
+    }
+    match /leads/{id} {
+      allow create: if hasSevenFields();
+      allow read, update, delete: if role() in ["owner", "admin", "marketing"];
+    }
+    match /auditEvents/{id} {
+      allow read: if isOwnerOrAdmin();
+      allow create: if signedIn() && hasSevenFields();
+      allow update, delete: if false;
+    }
+    match /qualityScores/{id} {
+      allow read: if isOwnerOrAdmin();
+      allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+    match /documents/{id} {
+      allow read: if isOwnerOrAdmin() || isClinical();
+      allow write: if isOwnerOrAdmin() && hasSevenFields();
+    }
+  }
+}

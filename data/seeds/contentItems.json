@@ -1,0 +1,15 @@
+[
+  {
+    "id": "content-hbot-explainer",
+    "entity": "VYTAL House",
+    "type": "contentItem",
+    "name": "HBOT explained",
+    "status": "draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "channel": "Science page",
+      "source": "Oxycell and Hyperbaric Pro references"
+    }
+  }
+]

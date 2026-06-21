@@ -1,0 +1,25 @@
+id,entity,type,name,status,owner,updatedAt,metadata.path,metadata.notes
+source-business_plan_docx,VYTAL House,source,business_plan_docx,available,operations,2026-06-19,vytal_house_plan.docx,Local user-provided source file
+source-business_plan_docx_duplicate,VYTAL House,source,business_plan_docx_duplicate,available,operations,2026-06-19,vytal_house_plan (1).docx,Local user-provided source file
+source-brd_docx,VYTAL House,source,brd_docx,available,operations,2026-06-19,vytal_business_requirements_document.docx,Local user-provided source file
+source-brd_docx_duplicate,VYTAL House,source,brd_docx_duplicate,available,operations,2026-06-19,vytal_business_requirements_document (1).docx,Local user-provided source file
+source-articles_docx,VYTAL House,source,articles_docx,available,operations,2026-06-19,vytal_articles_of_organization.docx,Local user-provided source file
+source-articles_docx_duplicate,VYTAL House,source,articles_docx_duplicate,available,operations,2026-06-19,vytal_articles_of_organization (1).docx,Local user-provided source file
+source-source_deck_pptx,VYTAL House,source,source_deck_pptx,available,operations,2026-06-19,vytal_house_presentation.pptx,Local user-provided source file
+source-vendor_contacts_csv,VYTAL House,source,vendor_contacts_csv,available,operations,2026-06-19,vytal_vendor_contacts.csv,Local user-provided source file
+source-vendor_contacts_csv_legacy,VYTAL House,source,vendor_contacts_csv_legacy,available,operations,2026-06-19,equipment_contacts (1).csv,Local user-provided source file
+source-vendor_email_template,VYTAL House,source,vendor_email_template,available,operations,2026-06-19,vytal_vendor_email_template.txt,Local user-provided source file
+source-code_stack,VYTAL House,source,code_stack,available,operations,2026-06-19,vytal_code_stack.txt,Local user-provided source file
+source-pasted_request,VYTAL House,source,pasted_request,available,operations,2026-06-19,codex-attachment:pasted-text.txt,Local user-provided source file
+source-floor_plan_image,VYTAL House,source,floor_plan_image,available,operations,2026-06-19,"ChatGPT Image Jun 19, 2026, 03_14_00 AM (2).png",Local user-provided source file
+source-interior_reference_image,VYTAL House,source,interior_reference_image,available,operations,2026-06-19,"ChatGPT Image Jun 19, 2026, 03_14_00 AM (1).png",Local user-provided source file
+source-url-oxycell-oxypro-sovereign,VYTAL House,source_url,Oxycell OxyPro Sovereign,reference,operations,2026-06-19,https://www.oxycell.com/product/oxypro-sovereign/,External reference for verification and professional review
+source-url-hyperbaric-pro-exercise-ready-multiplace-chamber,VYTAL House,source_url,Hyperbaric Pro exercise-ready multiplace chamber,reference,operations,2026-06-19,https://www.hyperbaricpro.com/product/exercise-ready-multiplace-hard-shell-hyperbaric-oxygen-chamber/,External reference for verification and professional review
+source-url-oxynergy2-beverly-hills-wellness-reference,VYTAL House,source_url,Oxynergy2 Beverly Hills wellness reference,reference,operations,2026-06-19,https://oxynergy2.com/,External reference for verification and professional review
+source-url-true-rest-alexandria-wellness-reference,VYTAL House,source_url,True REST Alexandria wellness reference,reference,operations,2026-06-19,https://truerest.com/locations/alexandria/,External reference for verification and professional review
+source-url-vacuactiv-fitness-devices,VYTAL House,source_url,VacuActiv fitness devices,reference,operations,2026-06-19,https://vacuactiv.com/products/fitness-devices/,External reference for verification and professional review
+source-url-eleve-longevity-lounge,VYTAL House,source_url,Eleve Longevity Lounge,reference,operations,2026-06-19,https://elevelongevity.com/,External reference for verification and professional review
+source-url-awesome-design-md,VYTAL House,source_url,Awesome Design MD,reference,operations,2026-06-19,https://github.com/VoltAgent/awesome-design-md,External reference for verification and professional review
+source-url-maryland-business-express,VYTAL House,source_url,Maryland Business Express,reference,operations,2026-06-19,https://businessexpress.maryland.gov/start/register-a-business-in-maryland,External reference for verification and professional review
+source-url-maryland-sdat-articles-of-organization-form,VYTAL House,source_url,Maryland SDAT Articles of Organization form,reference,operations,2026-06-19,https://dat.maryland.gov/sdat%20forms/artorgan.pdf,External reference for verification and professional review
+source-url-hhs-hipaa-privacy-rule,VYTAL House,source_url,HHS HIPAA Privacy Rule,reference,operations,2026-06-19,https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html,External reference for verification and professional review

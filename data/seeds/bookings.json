@@ -1,0 +1,17 @@
+[
+  {
+    "id": "booking-demo-001",
+    "entity": "VYTAL House",
+    "type": "booking",
+    "name": "Founding member HBOT consult",
+    "status": "requested",
+    "owner": "operations",
+    "updatedAt": "2026-06-19",
+    "metadata": {
+      "member": "Demo Member",
+      "service": "Hyperbaric Oxygen Therapy",
+      "date": "2026-07-08",
+      "time": "10:00"
+    }
+  }
+]
