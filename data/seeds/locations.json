@@ -1,0 +1,21 @@
+[
+  {
+    "id": "location-merriweather-columbia",
+    "entity": "VYTAL House",
+    "type": "launchLocation",
+    "name": "6000 Merriweather Drive",
+    "status": "target",
+    "owner": "operations",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "street": "6000 Merriweather Drive",
+      "city": "Columbia",
+      "state": "MD",
+      "postalCode": "21044",
+      "fullAddress": "6000 Merriweather Drive, Columbia, MD 21044",
+      "market": "Columbia, Maryland",
+      "use": "Target flagship recovery and wellness club location",
+      "gate": "Lease, zoning, utilities, permits, and tenant improvement terms require professional review before commitment"
+    }
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "portal-owner-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Owner Demo",
+    "status": "prototype-only",
+    "owner": "owner",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "owner",
+      "email": "owner@vytal.local",
+      "demoCode": "VYTAL-OWNER",
+      "scope": "Final gates, project readiness, and all records"
+    }
+  },
+  {
+    "id": "portal-admin-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Admin Demo",
+    "status": "prototype-only",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "admin",
+      "email": "admin@vytal.local",
+      "demoCode": "VYTAL-ADMIN",
+      "scope": "Platform configuration, Firebase readiness, quality evidence, and dashboards"
+    }
+  },
+  {
+    "id": "portal-operations-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Operations Demo",
+    "status": "prototype-only",
+    "owner": "operations",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "operations",
+      "email": "operations@vytal.local",
+      "demoCode": "VYTAL-OPS",
+      "scope": "Vendors, facility, launch goals, and bookings"
+    }
+  },
+  {
+    "id": "portal-clinical-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Clinical Demo",
+    "status": "prototype-only",
+    "owner": "clinical",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "clinical",
+      "email": "clinical@vytal.local",
+      "demoCode": "VYTAL-CLINICAL",
+      "scope": "Clinical review, protocol gates, and medical-risk controls"
+    }
+  },
+  {
+    "id": "portal-marketing-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Marketing Demo",
+    "status": "prototype-only",
+    "owner": "marketing",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "marketing",
+      "email": "marketing@vytal.local",
+      "demoCode": "VYTAL-MARKETING",
+      "scope": "Content calendar, public copy, and claims review routing"
+    }
+  },
+  {
+    "id": "portal-vendor-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Vendor Demo",
+    "status": "prototype-only",
+    "owner": "vendor",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "vendor",
+      "email": "vendor@vytal.local",
+      "demoCode": "VYTAL-VENDOR",
+      "scope": "Vendor response lane only"
+    }
+  },
+  {
+    "id": "portal-member-demo",
+    "entity": "VYTAL House",
+    "type": "portalUser",
+    "name": "Member Demo",
+    "status": "prototype-only",
+    "owner": "member",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "role": "member",
+      "email": "member@vytal.local",
+      "demoCode": "VYTAL-MEMBER",
+      "scope": "Membership, bookings, and non-medical education placeholders"
+    }
+  }
+]

@@ -224,6 +224,7 @@ def make_docs() -> None:
         f"| {r['id']} | {r['status']} | {r['metadata.path']} |" for r in source_rows()
     )
     vendor_table = "\n".join(
+        # pyrefly: ignore [bad-index]
         f"| {v['name']} | {v['metadata']['product']} | {v['metadata']['website']} | {v['metadata']['phone']} | {v['metadata']['email']} | {v['status']} |"
         for v in VENDORS
     )
@@ -726,6 +727,7 @@ def make_importables() -> None:
     )
     write_csv(
         "importables/notion/vendor_database.csv",
+        # pyrefly: ignore [bad-argument-type]
         [
             {
                 "id": v["id"],
@@ -735,10 +737,15 @@ def make_importables() -> None:
                 "status": v["status"],
                 "owner": v["owner"],
                 "updatedAt": v["updatedAt"],
+                # pyrefly: ignore [bad-index]
                 "product": v["metadata"]["product"],
+                # pyrefly: ignore [bad-index]
                 "website": v["metadata"]["website"],
+                # pyrefly: ignore [bad-index]
                 "phone": v["metadata"]["phone"],
+                # pyrefly: ignore [bad-index]
                 "email": v["metadata"]["email"],
+                # pyrefly: ignore [bad-index]
                 "notes": v["metadata"]["priority"],
             }
             for v in VENDORS
@@ -1675,6 +1682,7 @@ def copy_sources() -> None:
             shutil.copyfile(src, ROOT / "deliverables" / name)
     write_csv(
         "deliverables/vytal_vendor_contacts_import.csv",
+        # pyrefly: ignore [bad-argument-type]
         [
             {
                 "id": v["id"],
@@ -1684,10 +1692,15 @@ def copy_sources() -> None:
                 "status": v["status"],
                 "owner": v["owner"],
                 "updatedAt": v["updatedAt"],
+                # pyrefly: ignore [bad-index]
                 "product": v["metadata"]["product"],
+                # pyrefly: ignore [bad-index]
                 "website": v["metadata"]["website"],
+                # pyrefly: ignore [bad-index]
                 "phone": v["metadata"]["phone"],
+                # pyrefly: ignore [bad-index]
                 "email": v["metadata"]["email"],
+                # pyrefly: ignore [bad-index]
                 "priority": v["metadata"]["priority"],
             }
             for v in VENDORS

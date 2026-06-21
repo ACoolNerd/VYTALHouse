@@ -34,3 +34,50 @@ export interface VendorMetadata {
   email: string;
   priority: string;
 }
+
+export interface LocationMetadata {
+  street: string;
+  city: string;
+  state: string;
+  postalCode: string;
+  fullAddress: string;
+  market: string;
+  use: string;
+  gate: string;
+}
+
+export interface LaunchGoalMetadata {
+  phase: string;
+  gate: string;
+  due: string;
+  source: string;
+}
+
+export interface RiskMetadata {
+  severity: string;
+  likelihood: string;
+  control: string;
+  source: string;
+}
+
+export interface IntegrationMetadata {
+  provider: string;
+  target: string;
+  mode: string;
+  gate: string;
+}
+
+export interface PortalUserMetadata {
+  role: Role;
+  email: string;
+  demoCode: string;
+  scope: string;
+}
+
+export interface PortalSessionMetadata {
+  role: Role;
+  email: string;
+  scope: string;
+  issuedAt: string;
+  prototypeOnly: true;
+}

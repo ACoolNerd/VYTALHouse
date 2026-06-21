@@ -1,0 +1,62 @@
+[
+  {
+    "id": "risk-medical-claims-review",
+    "entity": "VYTAL House",
+    "type": "risk",
+    "name": "Medical claims not reviewed",
+    "status": "open",
+    "owner": "marketing",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "severity": "High",
+      "likelihood": "Medium",
+      "control": "Approved claims library and clinical/counsel review",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/risk_register.csv"
+    }
+  },
+  {
+    "id": "risk-equipment-delays",
+    "entity": "VYTAL House",
+    "type": "risk",
+    "name": "Equipment delays",
+    "status": "open",
+    "owner": "operations",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "severity": "Medium",
+      "likelihood": "Medium",
+      "control": "Multiple vendor quotes and lead-time tracking",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/risk_register.csv"
+    }
+  },
+  {
+    "id": "risk-data-breach",
+    "entity": "VYTAL House",
+    "type": "risk",
+    "name": "Data breach",
+    "status": "open",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "severity": "High",
+      "likelihood": "Low",
+      "control": "MFA, RBAC, encryption, audit logs, and no PHI in prototype",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/risk_register.csv"
+    }
+  },
+  {
+    "id": "risk-founder-deadlock",
+    "entity": "VYTAL House",
+    "type": "risk",
+    "name": "Founder deadlock",
+    "status": "open",
+    "owner": "owner",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "severity": "High",
+      "likelihood": "Low",
+      "control": "Operating agreement deadlock and buy-sell mechanics",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/risk_register.csv"
+    }
+  }
+]

@@ -35,6 +35,7 @@ def set_font(run, size: int | float = 11, color: RGBColor = INK, bold: bool = Fa
     run.bold = bold
 
 
+# pyrefly: ignore [not-a-type]
 def add_heading(doc: Document, text: str, level: int = 1) -> None:
     p = doc.add_paragraph()
     p.paragraph_format.space_before = Pt(12 if level == 1 else 8)
@@ -43,6 +44,7 @@ def add_heading(doc: Document, text: str, level: int = 1) -> None:
     set_font(run, 17 if level == 1 else 13, DARK if level == 1 else INK, True)
 
 
+# pyrefly: ignore [not-a-type]
 def add_body(doc: Document, text: str) -> None:
     p = doc.add_paragraph()
     p.paragraph_format.space_after = Pt(6)
@@ -50,6 +52,7 @@ def add_body(doc: Document, text: str) -> None:
     set_font(p.add_run(text), 10.5, INK)
 
 
+# pyrefly: ignore [not-a-type]
 def add_bullets(doc: Document, items: list[str]) -> None:
     for item in items:
         p = doc.add_paragraph(style="List Bullet")
@@ -57,6 +60,7 @@ def add_bullets(doc: Document, items: list[str]) -> None:
         set_font(p.add_run(item), 10.5, INK)
 
 
+# pyrefly: ignore [not-a-type]
 def add_table(doc: Document, headers: list[str], rows: list[list[str]]) -> None:
     table = doc.add_table(rows=1, cols=len(headers))
     table.style = "Table Grid"
@@ -170,10 +174,12 @@ def build_dossier() -> Path:
     set_font(footer.add_run("VYTAL House | Draft package for professional review"), 8, MUTED)
 
     out = OUT / "VYTAL_House_Full_Manifest_Dossier.docx"
+    # pyrefly: ignore [bad-argument-type]
     doc.save(out)
     return out
 
 
+# pyrefly: ignore [not-a-type]
 def new_branded_doc(title_text: str, subtitle_text: str, meta_text: str) -> Document:
     doc = Document()
     section = doc.sections[0]
@@ -197,6 +203,7 @@ def new_branded_doc(title_text: str, subtitle_text: str, meta_text: str) -> Docu
     return doc
 
 
+# pyrefly: ignore [not-a-type]
 def add_footer(doc: Document, text: str) -> None:
     footer = doc.sections[-1].footer.paragraphs[0]
     footer.alignment = WD_ALIGN_PARAGRAPH.CENTER

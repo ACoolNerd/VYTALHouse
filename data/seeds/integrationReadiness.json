@@ -1,0 +1,77 @@
+[
+  {
+    "id": "integration-github-vytalhouse",
+    "entity": "VYTAL House",
+    "type": "integration",
+    "name": "GitHub repository",
+    "status": "connected-local",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "provider": "GitHub",
+      "target": "ACoolNerd/VYTALHouse",
+      "mode": "Private repository recommended",
+      "gate": "Push allowed only for VYTAL-scoped code and docs"
+    }
+  },
+  {
+    "id": "integration-firebase-staging",
+    "entity": "VYTAL House",
+    "type": "integration",
+    "name": "Firebase staging",
+    "status": "ready-draft",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "provider": "Firebase",
+      "target": "vytal-house-staging",
+      "mode": "Environment-driven; no live project created by this repo",
+      "gate": "Owner approval, Firebase project, custom claims, App Check, and rules deploy"
+    }
+  },
+  {
+    "id": "integration-google-cloud-files",
+    "entity": "VYTAL House",
+    "type": "integration",
+    "name": "Google Cloud file vault",
+    "status": "ready-draft",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "provider": "Google Cloud",
+      "target": "vytal-house-documents",
+      "mode": "Controlled file storage plan; no live bucket or Drive workspace created",
+      "gate": "IAM roles, retention rules, encryption, professional review folders, and owner approval"
+    }
+  },
+  {
+    "id": "integration-notion-importables",
+    "entity": "VYTAL House",
+    "type": "integration",
+    "name": "Notion importables",
+    "status": "ready-draft",
+    "owner": "operations",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "provider": "Notion",
+      "target": "VYTAL House workspace import",
+      "mode": "Markdown and CSV only",
+      "gate": "No live workspace mutation until approved"
+    }
+  },
+  {
+    "id": "integration-figma-handoff",
+    "entity": "VYTAL House",
+    "type": "integration",
+    "name": "Figma design handoff",
+    "status": "ready-draft",
+    "owner": "marketing",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "provider": "Figma",
+      "target": "VYTAL House design system",
+      "mode": "Tokens and brief only",
+      "gate": "No live Figma file creation until approved"
+    }
+  }
+]

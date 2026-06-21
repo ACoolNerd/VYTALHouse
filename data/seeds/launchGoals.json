@@ -1,0 +1,92 @@
+[
+  {
+    "id": "goal-founder-alignment",
+    "entity": "VYTAL House",
+    "type": "launchGoal",
+    "name": "Confirm ownership economics",
+    "status": "approval-needed",
+    "owner": "owner",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "phase": "Founder Alignment",
+      "gate": "Formation",
+      "due": "Before formation filings",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/launch_checklist.csv"
+    }
+  },
+  {
+    "id": "goal-lease-zoning-ti",
+    "entity": "VYTAL House",
+    "type": "launchGoal",
+    "name": "Confirm Merriweather lease, zoning, utilities, and tenant improvements",
+    "status": "approval-needed",
+    "owner": "operations",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "phase": "Facility",
+      "gate": "Lease",
+      "due": "Before vendor deposits",
+      "source": "User-provided target address"
+    }
+  },
+  {
+    "id": "goal-medical-director-loi",
+    "entity": "VYTAL House",
+    "type": "launchGoal",
+    "name": "Secure medical director letter of intent",
+    "status": "approval-needed",
+    "owner": "clinical",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "phase": "Clinical",
+      "gate": "Medical",
+      "due": "Before clinical service pre-sale",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/launch_checklist.csv"
+    }
+  },
+  {
+    "id": "goal-vendor-quotes",
+    "entity": "VYTAL House",
+    "type": "launchGoal",
+    "name": "Request formal equipment quotes",
+    "status": "quote-needed",
+    "owner": "operations",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "phase": "Vendors",
+      "gate": "Equipment",
+      "due": "After owner approval to contact vendors",
+      "source": "Downloads/VYTAL_House_Max_Launch_Package_v2/data/launch_checklist.csv"
+    }
+  },
+  {
+    "id": "goal-firebase-staging",
+    "entity": "VYTAL House",
+    "type": "launchGoal",
+    "name": "Manifest Firebase staging project",
+    "status": "ready-draft",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "phase": "Tech",
+      "gate": "Technology",
+      "due": "After Google Cloud project approval",
+      "source": "Local repository Firebase manifest"
+    }
+  },
+  {
+    "id": "goal-google-cloud-files",
+    "entity": "VYTAL House",
+    "type": "launchGoal",
+    "name": "Create governed Google Cloud file vault plan",
+    "status": "ready-draft",
+    "owner": "admin",
+    "updatedAt": "2026-06-21",
+    "metadata": {
+      "phase": "Tech",
+      "gate": "Document vault",
+      "due": "Before live document import",
+      "source": "Local repository Google Cloud readiness manifest"
+    }
+  }
+]
