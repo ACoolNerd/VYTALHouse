@@ -1,0 +1,40 @@
+{
+  "brand": "VYTAL House",
+  "version": "1.0.0",
+  "status": "official",
+  "tagline": "Renew • Restore • Recharge",
+  "legacyTagline": {
+    "text": "Recovery • Contouring • Longevity",
+    "status": "deprecated"
+  },
+  "colors": {
+    "vytal_black": "#080706",
+    "onyx": "#11100F",
+    "carbon": "#1B1917",
+    "vytal_gold": "#D4AF37",
+    "champagne_highlight": "#F0D58A",
+    "bronze_shadow": "#8A5A24",
+    "warm_ivory": "#F7F4EC",
+    "soft_stone": "#D8D2C7"
+  },
+  "typography": {
+    "display": ["Cormorant Garamond", "GFS Didot", "serif"],
+    "sans": ["Manrope", "Inter", "Arial", "sans-serif"],
+    "logoWordmark": "Use supplied artwork only; do not typeset the logo."
+  },
+  "radii": {
+    "small": "8px",
+    "medium": "16px",
+    "large": "28px",
+    "pill": "999px"
+  },
+  "shadow": {
+    "soft": "0 16px 50px rgba(0,0,0,.18)",
+    "goldGlow": "0 0 28px rgba(212,175,55,.24)"
+  },
+  "spacing": {
+    "unit": "4px",
+    "logoClearspace": "1x H-crossbar height"
+  },
+  "assetsCanonicalPath": "/brand-system/assets/"
+}
