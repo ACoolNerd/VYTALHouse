@@ -1,15 +1,14 @@
 import Link from "next/link";
 
 const links = [
-  ["Portal", "/portal"],
+  ["Experience", "/#experience"],
   ["Services", "/services"],
   ["Memberships", "/memberships"],
+  ["VYTAL Pouches", "/pouches"],
+  ["VYTAL Air", "/vytal-air"],
   ["Facility", "/facility"],
-  ["Member", "/member"],
-  ["Admin", "/admin"],
-  ["Vendor CRM", "/vendor"],
-  ["Ownership", "/ownership"],
-  ["Login", "/login"],
+  ["Founders", "/#waitlist"],
+  ["Portal", "/portal"],
 ];
 
 export function Nav() {
@@ -18,7 +17,7 @@ export function Nav() {
       <div className="nav-inner">
         <Link href="/" className="brand-lockup" aria-label="VYTAL House home">
           <strong>VYTAL HOUSE</strong>
-          <span>Recharge. Recover. Evolve.</span>
+          <span>Renew • Restore • Recharge</span>
         </Link>
         <nav className="nav-links" aria-label="Primary navigation">
           {links.map(([label, href]) => (
