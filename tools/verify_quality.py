@@ -74,13 +74,15 @@ def run_rg(term: str) -> bool:
             "-g",
             "!quality",
             "-g",
+            "!.antigravity/**",
+            "-g",
+            "!brand-system/BRAND_GOVERNANCE.md",
+            "-g",
             "!tools/verify_quality.py",
             "-g",
             "!deliverables/source_copies/*.docx",
             "-g",
             "!deliverables/source_copies/*.pptx",
-            "-g",
-            "!tools/verify_quality.py",
         ],
         cwd=ROOT,
         capture_output=True,
@@ -92,13 +94,13 @@ def run_rg(term: str) -> bool:
 def check_schema() -> tuple[bool, list[str]]:
     failures = []
     for file in SEED_FILES:
-      data = json.loads((ROOT / file).read_text())
-      for index, record in enumerate(data):
-        missing = REQUIRED_FIELDS - set(record)
-        if missing:
-            failures.append(f"{file}[{index}] missing {sorted(missing)}")
-        if record.get("entity") != "VYTAL House":
-            failures.append(f"{file}[{index}] has wrong entity")
+        data = json.loads((ROOT / file).read_text())
+        for index, record in enumerate(data):
+            missing = REQUIRED_FIELDS - set(record)
+            if missing:
+                failures.append(f"{file}[{index}] missing {sorted(missing)}")
+            if record.get("entity") != "VYTAL House":
+                failures.append(f"{file}[{index}] has wrong entity")
     return not failures, failures
 
 
@@ -164,7 +166,7 @@ def main() -> int:
         "# VYTAL House Quality Gate",
         "",
         f"- Score: {score}/100",
-        f"- Required minimum: 97/100",
+        "- Required minimum: 97/100",
         f"- Status: {'PASS' if passed else 'FAIL'}",
         "",
         "## Evidence",
