@@ -16,9 +16,7 @@ export default function VytalArc() {
 
       <section className="py-16 sm:py-20 border-b border-white/10">
         <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-10">
-          <div className="border border-white/10 bg-black/30 p-2">
-            <img src="/assets/brand/master-os/10-vytal-arc-sub-brand.png" onError={(e) => { e.currentTarget.src = MASTER_OS_ASSETS.overview; }} alt="VYTAL Arc approved brand direction" className="w-full" />
-          </div>
+          <div className="border border-white/10 bg-black/30 p-2"><img src={MASTER_OS_ASSETS.overview} alt="VYTAL Arc within the approved VYTAL umbrella architecture" className="w-full" /></div>
         </div>
       </section>
 
