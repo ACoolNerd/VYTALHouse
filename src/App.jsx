@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 
-// Pages
 import Home from './pages/Home';
 import Reset from './pages/Reset';
 import Restorations from './pages/Restorations';
@@ -25,10 +24,13 @@ import AccountPortal from './pages/AccountPortal';
 import LegalPage from './pages/legal/LegalPage';
 import VytalPouches from './pages/VytalPouches';
 import VytalAir from './pages/VytalAir';
+import VytalArc from './pages/VytalArc';
+import VytalOne from './pages/VytalOne';
+import BrandSystem from './pages/BrandSystem';
 
 export default function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#0B0F17] text-gray-100 font-sans selection:bg-[#C5A059] selection:text-black">
+    <div className="flex flex-col min-h-screen bg-[#0B0C0E] text-[#B7BDC6] font-sans selection:bg-[#C6FC06] selection:text-black">
       <Header />
       <main className="flex-grow">
         <Routes>
@@ -52,6 +54,9 @@ export default function App() {
           <Route path="/account" element={<AccountPortal />} />
           <Route path="/products/pouches" element={<VytalPouches />} />
           <Route path="/products/vytal-air" element={<VytalAir />} />
+          <Route path="/vytal-arc" element={<VytalArc />} />
+          <Route path="/vytal-one" element={<VytalOne />} />
+          <Route path="/brand-system" element={<BrandSystem />} />
           <Route path="/legal/:slug" element={<LegalPage />} />
         </Routes>
       </main>
