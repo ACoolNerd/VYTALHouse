@@ -1,6 +1,17 @@
 name: VYTAL Public Site Build
 
 on:
+  push:
+    branches:
+      - agent/master-brand-site-sync
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'vite.config.*'
+      - 'tailwind.config.*'
+      - '.github/workflows/site-build.yml'
   pull_request:
     paths:
       - 'src/**'
