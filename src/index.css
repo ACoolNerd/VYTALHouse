@@ -71,19 +71,21 @@
 /* Glassmorphism helpers */
 .glass-panel {
   background: rgba(19, 26, 38, 0.75);
-  backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .glass-gold-panel {
   background: rgba(197, 160, 89, 0.04);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(197, 160, 89, 0.25);
 }
 
 .glass-clinical-panel {
   background: rgba(14, 165, 233, 0.04);
+  -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(14, 165, 233, 0.25);
 }
