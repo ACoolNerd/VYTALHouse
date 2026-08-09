@@ -5,12 +5,12 @@ import { PRISM_ASSETS, BRAND_SUBTAGLINE } from '../data/masterSpecData';
 
 export default function House() {
   const galleryImages = [
-    { title: "Thermal Contrast Plunge Suite", category: "RITUAL", src: "/images/imgi_15_5a62c57a6a6418c9a87b77167658eaa53a242c62.png" },
-    { title: "Hyperbaric Oxygen & PEMF Bay", category: "ELEVATE TECH", src: "/images/imgi_56_e55193b4fef665cf0be25131318e015a9141696e.png" },
-    { title: "Infrared Hyperthermic Sauna", category: "THERMAL RITUAL", src: "/images/imgi_39_Frame_1088013_1.png" },
-    { title: "Physician Readout & Diagnostic Suite", category: "PC CLINICAL", src: "/images/imgi_26_5a62c57a6a6418c9a87b77167658eaa53a242c62.png" },
-    { title: "Whole-Body Cryo Adaptation Chamber", category: "FORGE", src: "/images/imgi_25_5a62c57a6a6418c9a87b77167658eaa53a242c62.png" },
-    { title: "Member Lounge & Hydration Bar", category: "HOUSE ACCESS", src: "/images/imgi_2_356efaec0b6e410ba7d6489b13f3c234.thumbnail.0000000000_1085x.jpg" },
+    { title: "Thermal Contrast Plunge Suite", category: "RITUAL", src: "/images/house/thermal-contrast-plunge-suite.png" },
+    { title: "Hyperbaric Oxygen & PEMF Bay", category: "ELEVATE TECH", src: "/images/house/hyperbaric-pemf-bay.png" },
+    { title: "Infrared Hyperthermic Sauna", category: "THERMAL RITUAL", src: "/images/house/infrared-sauna.png" },
+    { title: "Physician Readout & Diagnostic Suite", category: "PC CLINICAL", src: "/images/house/physician-diagnostic-suite.png" },
+    { title: "Whole-Body Cryo Adaptation Chamber", category: "FORGE", src: "/images/house/cryotherapy-chamber.png" },
+    { title: "Member Lounge & Hydration Bar", category: "HOUSE ACCESS", src: "/images/house/member-lounge-hydration-bar.png" },
   ];
 
   return (

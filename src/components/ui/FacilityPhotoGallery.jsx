@@ -7,31 +7,31 @@ export default function FacilityPhotoGallery() {
       title: "SOCIAL ICE PLUNGE CONTRAST SUITE",
       category: "THERMAL CONTRAST RITUAL",
       description: "Sub-45°F cold plunge immersion tubs engineered for deep neural regulation, mitochondrial biogenesis, and guided breathwork.",
-      img: "/images/remedy/imgi_26_8e5f7a97172bcbad9587822948e2321aed30a04d-3276x4096.jpg",
+      img: "/images/house/thermal-contrast-plunge-suite.png",
       badge: "MSO Facility",
-      tagColor: "border-[#C5A059] text-[#C5A059]"
+      tagColor: "border-[#C6FC06] text-[#C6FC06]"
     },
     {
       title: "CLINICAL IV CELLULAR RECHARGE LOUNGE",
       category: "PHYSICIAN MEDICAL SERVICES",
       description: "Custom NAD+ cellular infusions, high-dose antioxidant matrixes, and hydration drips under Dr. Abasi Bomani, MD medical authority.",
-      img: "/images/remedy/imgi_12_104d767b74fdbb52c41272f491dcfd02e9390689-3278x4098.jpg",
+      img: "/images/house/physician-diagnostic-suite.png",
       badge: "PC Medical Service",
       tagColor: "border-sky-500 text-sky-400"
     },
     {
-      title: "ROBOTIC STRUCTURAL BODYWORK SUITE",
-      category: "ADVANCED RECOVERY TECH",
-      description: "Precision robotic arm therapy combined with targeted cervical decompression and somatic myofascial release.",
-      img: "/images/remedy/imgi_9_64b60e12782aaa64b6627932acc63f87e20b48df-3072x4096.jpg",
-      badge: "MSO Tech Suite",
-      tagColor: "border-emerald-500 text-emerald-400"
+      title: "MEMBER LOUNGE & HYDRATION BAR",
+      category: "SOCIAL WELLNESS LOUNGE",
+      description: "Adaptogenic tea service, soft-touch seating, and acoustic entrainment lighting surrounding our signature dark stone water wall.",
+      img: "/images/house/member-lounge-hydration-bar.png",
+      badge: "MSO Lounge",
+      tagColor: "border-[#B7BDC6] text-[#B7BDC6]"
     },
     {
       title: "HYPERBARIC OXYGEN CHAMBER BAY",
       category: "CELLULAR RECOVERY",
       description: "Pressurized 100% cellular oxygen therapy chambers promoting systemic anti-inflammatory signaling and micro-vascular repair.",
-      img: "/images/imgi_56_e55193b4fef665cf0be25131318e015a9141696e.png",
+      img: "/images/house/hyperbaric-pemf-bay.png",
       badge: "MSO Tech Bay",
       tagColor: "border-purple-500 text-purple-400"
     },
@@ -39,16 +39,16 @@ export default function FacilityPhotoGallery() {
       title: "INFRARED HYPERTHERMIC SAUNA SUITE",
       category: "THERMAL RITUAL",
       description: "Full-spectrum infrared heat chambers promoting cellular detox, heat shock protein expression, and cardiovascular vasodilation.",
-      img: "/images/imgi_39_Frame_1088013_1.png",
+      img: "/images/house/infrared-sauna.png",
       badge: "MSO Thermal",
       tagColor: "border-amber-500 text-amber-400"
     },
     {
-      title: "PHYSICIAN DIAGNOSTIC READOUT SUITE",
-      category: "CLINICAL DIAGNOSTICS",
-      description: "1-on-1 diagnostic review with Dr. Abasi Bomani, MD interpreting 180+ biomarkers and 3D musculoskeletal metrics.",
-      img: "/images/imgi_28_5a62c57a6a6418c9a87b77167658eaa53a242c62.png",
-      badge: "PC Diagnostic Suite",
+      title: "WHOLE-BODY CRYO ADAPTATION CHAMBER",
+      category: "CLINICAL DIAGNOSTICS & CRYOTHERAPY",
+      description: "Sub-zero cold vapor chamber providing rapid neuro-vascular constriction and metabolic activation.",
+      img: "/images/house/cryotherapy-chamber.png",
+      badge: "MSO Cryo Suite",
       tagColor: "border-sky-500 text-sky-400"
     }
   ];
