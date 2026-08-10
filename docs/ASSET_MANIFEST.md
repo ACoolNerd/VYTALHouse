@@ -1,6 +1,7 @@
 # VYTAL HOUSE — ASSET MANIFEST
 
 ## 1. Master Brand OS Boards (`public/assets/brand/master-os/`)
+
 - `00-master-overview.jpg`
 - `01-brand-book-cover.jpg`
 - `02-logo-standards.png`
@@ -11,6 +12,7 @@
 - `08-environmental-signage.jpg`
 
 ## 2. Master Pouch Ecosystem Boards (`public/assets/brand/master-os/pouches-boards/`)
+
 - `01-pouch-collection-board.jpg`
 - `02-refill-pouch-lineup.jpg`
 - `03-master-brand-system.jpg`
@@ -23,6 +25,7 @@
 - `10-flagship-variety-pack-display.jpg`
 
 ## 3. Full 4-Piece Packaging Suites (`public/assets/pouches/full-suites/`)
+
 - `vytal-clean-energy-suite.jpg`
 - `vytal-energy-focus-suite.jpg`
 - `vytal-hydration-acid-lime-suite.jpg`
@@ -30,6 +33,7 @@
 - `vytal-tidal-sea-moss-suite.jpg`
 
 ## 4. Bespoke Spatial Room Renderings (`public/images/house/`)
+
 - `thermal-contrast-plunge-suite.png`
 - `hyperbaric-pemf-bay.png`
 - `infrared-sauna.png`

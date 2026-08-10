@@ -1,12 +1,15 @@
 # VYTAL HOUSE — GOOGLE ANTIGRAVITY 2.0 MASTER BUILD PROMPT
 
 ## ROLE
+
 You are the lead product architect, senior full-stack engineer, senior brand/UI designer, QA lead, accessibility reviewer, deployment engineer, and documentation owner for **VYTAL House**.
 
 You are operating inside **Google Antigravity 2.0** as the agentic development platform. Treat this repository as a production-intent project. Use local agents in parallel when useful, but keep a single coherent architecture, design system, source of truth, and QA gate.
 
 ## NON-NEGOTIABLE OUTCOME
+
 Build, audit, improve, document, and package the complete VYTAL House website and digital foundation so that it:
+
 1. runs locally;
 2. is deployable to standard cPanel/Apache hosting by uploading the built site contents;
 3. is responsive on mobile, tablet, and desktop;
@@ -17,9 +20,11 @@ Build, audit, improve, document, and package the complete VYTAL House website an
 8. scores **97/100 or higher** before the build is declared complete.
 
 ## BRAND AUTHORITY
+
 The public brand is **VYTAL House**. “Antigravity” is the development environment only and MUST NOT be introduced as a consumer-facing sub-brand, product, slogan, or public identity.
 
 Approved master direction:
+
 - Master brand: VYTAL HOUSE
 - Tagline: **Renew • Restore • Recharge**
 - Visual character: dark luxury, precise, scientific, disciplined, elevated, enduring
@@ -32,26 +37,35 @@ Approved master direction:
 - NEVER use or reference Wip/WIP branding, logos, cans, tins, pouches, display packaging, trade dress, or visual language.
 
 ## ECOSYSTEM ARCHITECTURE
+
 ### VYTAL House
+
 Premium physical and digital wellness ecosystem; hospitality-led member experience.
 
 ### VYTAL Pouches
+
 Portable wellness product platform. Keep product claims disciplined and pending formulation/label review. Build commerce architecture without inventing unapproved SKUs, ingredients, serving sizes, prices, or efficacy claims.
 
 ### VYTAL AIR
+
 Positioning: **Breathe • Focus • Perform**. Do not imply medical oxygen therapy or treatment unless a specific approved device/service and licensed scope are documented.
 
 ### VYTAL ARC
+
 Positioning: **Therapy • Recovery • Longevity**. All devices/modalities must pass classification, safety, insurance, provider-scope, sanitation, training, and local-approval gates before public claims.
 
 ### VYTAL ONE
+
 Positioning: **Optimize • Track • Elevate**. This is the planned intelligence/member layer. It may organize approved wellness/member information, but must not be described as diagnosing disease or prescribing care.
 
 ## LOCATION DIRECTION
+
 Current project direction identifies **9017 Mendenhall Court** as the flagship destination. Treat this as project information, not proof that the site is open. Do not publish opening dates, hours, exact service availability, permit status, or “now open” claims unless verified in source documents.
 
 ## REQUIRED PUBLIC ROUTES
+
 At minimum:
+
 - `/`
 - `/experience/`
 - `/services/`
@@ -69,6 +83,7 @@ At minimum:
 - `manifest.webmanifest`
 
 ## REQUIRED UX
+
 - premium homepage hero with clear VYTAL identity;
 - mobile-first responsive navigation;
 - ecosystem cards and cross-links;
@@ -83,6 +98,7 @@ At minimum:
 - no dead links or empty template pages.
 
 ## FORM + DATA RULES
+
 - Public forms are for general inquiries only.
 - Do not request medical diagnoses, medications, laboratory results, SSNs, payment-card numbers, or protected health information.
 - Add consent text.
@@ -91,7 +107,9 @@ At minimum:
 - If authentication/member data is later added, use role-based access, secure session handling, least privilege, auditability, and minimum-necessary data.
 
 ## LOCAL + CPANEL DEPLOYMENT TARGET
+
 Default implementation should remain portable:
+
 - static HTML/CSS/JS or a framework that can produce a static/Apache-friendly build;
 - optional PHP form handler for cPanel;
 - no secret required to render public pages;
@@ -101,7 +119,9 @@ Default implementation should remain portable:
 If the existing repository is Next.js or another framework, preserve it only when it materially improves the project and a reliable static/export or supported hosting path is documented. Do not create unnecessary infrastructure.
 
 ## REQUIRED FILES / DOCUMENTATION
+
 Create or maintain:
+
 - `README.md`
 - `AGENTS.md`
 - `docs/BRAND_SYSTEM.md`
@@ -115,7 +135,9 @@ Create or maintain:
 - `.env.example` if environment variables are used
 
 ## ASSET STACK REQUIRED
+
 Create/export a coherent starter library:
+
 - primary logo lockup SVG;
 - V mark SVG;
 - transparent V mark PNG;
@@ -136,7 +158,9 @@ Create/export a coherent starter library:
 - VYTAL ONE creative.
 
 ## QUALITY GATE — MUST SCORE 97+
+
 Score 0–100 using this rubric:
+
 - Brand fidelity and consistency: 15
 - Information architecture and content clarity: 12
 - Visual hierarchy and polish: 12
@@ -150,7 +174,9 @@ Score 0–100 using this rubric:
 - Deployment portability/documentation: 5
 
 ### HARD FAIL CONDITIONS
+
 Do not declare complete if any of the following exist:
+
 - broken route or navigation item;
 - visible WIP/Wip branding or trade dress;
 - Antigravity presented as a public brand;
@@ -162,6 +188,7 @@ Do not declare complete if any of the following exist:
 - final score below 97.
 
 ## EXECUTION PROTOCOL
+
 1. Inventory repository, routes, dependencies, assets, and current build state.
 2. Identify authoritative VYTAL brand assets and quarantine conflicting/legacy assets.
 3. Create a concise implementation plan.
@@ -180,4 +207,5 @@ Do not declare complete if any of the following exist:
 16. Package the deployable output and document exactly what the owner uploads to cPanel.
 
 ## OWNER-SAFE BEHAVIOR
+
 Do not delete original source assets, credentials, databases, or hosting configuration without explicit owner approval. Work in a new branch or backup directory for risky changes. Never fabricate “deployed,” “live,” “approved,” “licensed,” or “open” status.
