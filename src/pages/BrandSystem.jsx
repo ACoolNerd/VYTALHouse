@@ -9,11 +9,16 @@ const gallery = [
   ['Product Packaging', MASTER_OS_ASSETS.productPackaging],
   ['Digital + App', MASTER_OS_ASSETS.digitalAppEcosystem],
   ['Environmental Signage', MASTER_OS_ASSETS.environmentalSignage],
-  ['Pouch Collection Board', '/assets/brand/master-os/pouches-boards/01-pouch-collection-board.jpg'],
-  ['Refill Pouch Lineup', '/assets/brand/master-os/pouches-boards/02-refill-pouch-lineup.jpg'],
-  ['Master Brand System', '/assets/brand/master-os/pouches-boards/03-master-brand-system.jpg'],
-  ['Canisters & Tins Showcase', '/assets/brand/master-os/pouches-boards/04-canisters-tins-showcase.jpg'],
-  ['Master Pouch Ecosystem', '/assets/brand/master-os/pouches-boards/05-master-pouch-ecosystem.jpg'],
+  ['01 / Pouch Collection Board', '/assets/brand/master-os/pouches-boards/01-pouch-collection-board.jpg'],
+  ['02 / Refill Pouch Lineup', '/assets/brand/master-os/pouches-boards/02-refill-pouch-lineup.jpg'],
+  ['03 / Master Brand System', '/assets/brand/master-os/pouches-boards/03-master-brand-system.jpg'],
+  ['04 / Canisters & Tins Showcase', '/assets/brand/master-os/pouches-boards/04-canisters-tins-showcase.jpg'],
+  ['05 / Master Pouch Ecosystem', '/assets/brand/master-os/pouches-boards/05-master-pouch-ecosystem.jpg'],
+  ['06 / System At A Glance', '/assets/brand/master-os/pouches-boards/06-system-at-a-glance.jpg'],
+  ['07 / Functional Experiences Anatomy', '/assets/brand/master-os/pouches-boards/07-functional-experiences-anatomy.jpg'],
+  ['08 / Botanical Energy & Performance', '/assets/brand/master-os/pouches-boards/08-botanical-energy-performance.jpg'],
+  ['09 / Powered By Nature & Science', '/assets/brand/master-os/pouches-boards/09-powered-by-nature-science.jpg'],
+  ['10 / Flagship Variety Pack & Retail Display', '/assets/brand/master-os/pouches-boards/10-flagship-variety-pack-display.jpg'],
 ];
 
 export default function BrandSystem() {

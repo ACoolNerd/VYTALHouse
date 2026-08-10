@@ -391,11 +391,61 @@ export default function VytalPouches() {
               <span className="text-[10px] font-mono font-bold text-[#C6FC06] tracking-widest uppercase">
                 04 / FORMULATION • HYDRATION ACID LIME
               </span>
-              <h3 className="text-xl font-heading font-extrabold text-white">VYTAL Hydration (Acid Lime)</h3>
               <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
                 <img src="/assets/pouches/full-suites/vytal-hydration-acid-lime-suite.jpg" alt="VYTAL Hydration Acid Lime Full 4-Piece Suite" className="w-full h-auto object-cover" />
               </div>
               <p className="text-xs text-gray-400 font-mono">200mg Electrolytes • Pink Himalayan Salt • Magnesium & Potassium</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Master System Architecture & Retail Display Showcase */}
+      <section className="py-16 bg-[#0B0F17]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+          <div className="text-center max-w-3xl mx-auto space-y-3">
+            <span className="text-xs font-mono font-bold text-[#C6FC06] uppercase tracking-widest border border-[#C6FC06]/30 px-3 py-1 rounded-full bg-[#C6FC06]/10">
+              ECOSYSTEM ARCHITECTURE & RETAIL STANDARDS
+            </span>
+            <h2 className="font-heading font-black text-3xl sm:text-5xl text-white">
+              ONE SYSTEM. EVERY ADVANTAGE.
+            </h2>
+            <p className="text-xs sm:text-sm text-gray-400 font-mono">
+              6 Functional Formulations • Precision Oral Mucosa Delivery • Sustainable Refill Protocol
+            </p>
+          </div>
+
+          <div className="space-y-8">
+            <div className="p-4 sm:p-6 rounded-3xl bg-[#131A26] border border-gray-800 space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-gray-800">
+                <h3 className="font-heading font-bold text-white text-lg">System At A Glance — Complete Retail Ecosystem</h3>
+                <span className="text-xs font-mono text-[#C6FC06]">BOARD 06 / 10</span>
+              </div>
+              <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                <img src="/assets/brand/master-os/pouches-boards/06-system-at-a-glance.jpg" alt="VYTAL Pouches System At A Glance Board" className="w-full h-auto object-cover" />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="p-4 sm:p-6 rounded-3xl bg-[#131A26] border border-gray-800 space-y-4">
+                <div className="flex items-center justify-between pb-3 border-b border-gray-800">
+                  <h3 className="font-heading font-bold text-white text-base">Pouch Anatomical Layer Science</h3>
+                  <span className="text-xs font-mono text-[#00F0FF]">BOARD 07 / 10</span>
+                </div>
+                <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                  <img src="/assets/brand/master-os/pouches-boards/07-functional-experiences-anatomy.jpg" alt="VYTAL Pouch Functional Anatomy Board" className="w-full h-auto object-cover" />
+                </div>
+              </div>
+
+              <div className="p-4 sm:p-6 rounded-3xl bg-[#131A26] border border-gray-800 space-y-4">
+                <div className="flex items-center justify-between pb-3 border-b border-gray-800">
+                  <h3 className="font-heading font-bold text-white text-base">Flagship Variety Pack & Counter Display</h3>
+                  <span className="text-xs font-mono text-[#CDB8FF]">BOARD 10 / 10</span>
+                </div>
+                <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                  <img src="/assets/brand/master-os/pouches-boards/10-flagship-variety-pack-display.jpg" alt="VYTAL Flagship Variety Pack & Counter Display Board" className="w-full h-auto object-cover" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
