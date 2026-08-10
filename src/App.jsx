@@ -53,11 +53,18 @@ export default function App() {
           <Route path="/book" element={<BookRouter />} />
           <Route path="/account" element={<AccountPortal />} />
           <Route path="/products/pouches" element={<VytalPouches />} />
+          <Route path="/vytal-pouches" element={<VytalPouches />} />
           <Route path="/products/vytal-air" element={<VytalAir />} />
+          <Route path="/vytal-air" element={<VytalAir />} />
           <Route path="/vytal-arc" element={<VytalArc />} />
           <Route path="/vytal-one" element={<VytalOne />} />
+          <Route path="/experience" element={<House />} />
+          <Route path="/location" element={<House />} />
+          <Route path="/services" element={<Modalities />} />
+          <Route path="/founders" element={<Team />} />
           <Route path="/brand-system" element={<BrandSystem />} />
           <Route path="/legal/:slug" element={<LegalPage />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <Footer />

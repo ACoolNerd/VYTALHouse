@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120" fill="none">
+  <!-- Energy Icon -->
+  <g transform="translate(20, 20)" stroke="#C6FC06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="35" fill="#0B0C0E" />
+    <path d="M 43 20 L 25 46 L 40 46 L 37 60 L 55 34 L 40 34 Z" fill="#C6FC06" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" fill="#B7BDC6" text-anchor="middle">ENERGY</text>
+  </g>
+
+  <!-- Focus Icon -->
+  <g transform="translate(120, 20)" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="35" fill="#0B0C0E" />
+    <circle cx="40" cy="40" r="15" />
+    <circle cx="40" cy="40" r="5" fill="#00F0FF" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" fill="#B7BDC6" text-anchor="middle">FOCUS</text>
+  </g>
+
+  <!-- Hydration Icon -->
+  <g transform="translate(220, 20)" stroke="#00F0FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="35" fill="#0B0C0E" />
+    <path d="M 40 20 C 40 20 22 42 22 52 C 22 62 30 70 40 70 C 50 70 58 62 58 52 C 58 42 40 20 40 20 Z" fill="#00F0FF" fill-opacity="0.2" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" fill="#B7BDC6" text-anchor="middle">HYDRATION</text>
+  </g>
+
+  <!-- Longevity Icon -->
+  <g transform="translate(320, 20)" stroke="#CDB8FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="35" fill="#0B0C0E" />
+    <path d="M 28 35 C 28 28 35 28 40 35 C 45 28 52 28 52 35 C 52 45 40 55 40 55 C 40 55 28 45 28 35 Z" fill="#CDB8FF" fill-opacity="0.2" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" fill="#B7BDC6" text-anchor="middle">LONGEVITY</text>
+  </g>
+
+  <!-- Clinical Icon -->
+  <g transform="translate(420, 20)" stroke="#E7E8EF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="35" fill="#0B0C0E" />
+    <path d="M 40 25 L 40 55 M 25 40 L 55 40" stroke-width="4" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" fill="#B7BDC6" text-anchor="middle">CLINICAL</text>
+  </g>
+
+  <!-- Precision Icon -->
+  <g transform="translate(520, 20)" stroke="#C6FC06" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="35" fill="#0B0C0E" />
+    <polygon points="40,20 46,34 60,40 46,46 40,60 34,46 20,40 34,34" fill="#C6FC06" fill-opacity="0.3" />
+    <text x="40" y="95" font-family="sans-serif" font-size="10" fill="#B7BDC6" text-anchor="middle">PRECISION</text>
+  </g>
+</svg>

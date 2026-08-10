@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" fill="none">
+  <defs>
+    <linearGradient id="vMarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="35%" stop-color="#E7E8EF" />
+      <stop offset="70%" stop-color="#B7BDC6" />
+      <stop offset="100%" stop-color="#717986" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(50, 40)" filter="url(#glow)">
+    <path d="M 0 0 L 28 0 L 50 75 L 72 0 L 100 0 L 62 110 L 38 110 Z" fill="url(#vMarkGrad)" />
+  </g>
+</svg>

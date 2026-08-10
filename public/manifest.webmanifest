@@ -1,0 +1,16 @@
+{
+  "name": "VYTAL HOUSE — Physician-Led Restoration House",
+  "short_name": "VYTAL HOUSE",
+  "description": "At the Intersection of Science, Precision, Discipline, Recovery, Longevity, and Premium Hospitality.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0B0C0E",
+  "theme_color": "#0B0C0E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

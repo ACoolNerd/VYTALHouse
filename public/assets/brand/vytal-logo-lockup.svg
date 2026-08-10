@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="500" height="120" fill="none">
+  <!-- V Monogram Platinum Gradient -->
+  <defs>
+    <linearGradient id="platinumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="40%" stop-color="#E7E8EF" />
+      <stop offset="70%" stop-color="#B7BDC6" />
+      <stop offset="100%" stop-color="#8A92A0" />
+    </linearGradient>
+    <linearGradient id="limePulse" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C6FC06" stop-opacity="0.2" />
+      <stop offset="50%" stop-color="#C6FC06" stop-opacity="1" />
+      <stop offset="100%" stop-color="#C6FC06" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left V Monogram -->
+  <g transform="translate(10, 10)">
+    <path d="M 0 0 L 28 0 L 50 70 L 72 0 L 100 0 L 62 100 L 38 100 Z" fill="url(#platinumGrad)" />
+  </g>
+
+  <!-- VYTAL HOUSE Wordmark -->
+  <text x="130" y="55" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="34" font-weight="900" letter-spacing="12" fill="#FFFFFF">VYTAL HOUSE</text>
+  
+  <!-- Heartbeat Line Divider -->
+  <path d="M 130 75 L 260 75 L 268 65 L 276 85 L 284 75 L 480 75" stroke="url(#limePulse)" stroke-width="2" fill="none" />
+  
+  <!-- Subtagline -->
+  <text x="130" y="98" font-family="'JetBrains Mono', monospace" font-size="12" font-weight="700" letter-spacing="8" fill="#B7BDC6">RENEW • RESTORE • RECHARGE</text>
+</svg>
