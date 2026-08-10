@@ -56,6 +56,21 @@ export default function VytalPouches() {
       specs: '30 Pouches per Reusable Aluminum Tin • Zero Tobacco • Zero Nicotine'
     },
     {
+      id: 'hydration',
+      name: 'VYTAL Hydration',
+      tagline: 'ELECTROLYTES & REPLENISH',
+      flavor: 'Acid Lime',
+      color: 'from-lime-500/20 to-green-900/10',
+      borderColor: 'border-[#C6FC06]/40',
+      badgeColor: 'text-[#C6FC06] bg-[#C6FC06]/10 border-[#C6FC06]/30',
+      img: '/assets/pouches/full-suites/vytal-hydration-acid-lime-suite.jpg',
+      standaloneImg: '/assets/pouches/full-suites/vytal-hydration-acid-lime-suite.jpg',
+      accentColor: '#C6FC06',
+      desc: 'Rapid bio-available electrolyte and mineral sublingual pouch formulation designed for instant intracellular hydration balance.',
+      ingredients: ['200mg Bio-Available Electrolytes', 'Key Lime Essence', 'Pink Himalayan Salt', 'Magnesium Citrate', 'Potassium Chloride'],
+      specs: '30 Pouches per Reusable Canister • Zero Sugar • Zero Nicotine'
+    },
+    {
       id: 'starter-kit',
       name: 'VYTAL Starter Kit Box',
       tagline: 'MASTER RITUAL UNBOXING',
@@ -319,6 +334,69 @@ export default function VytalPouches() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 4-Piece Full Packaging Suite Showcase */}
+      <section className="py-16 bg-[#0E131F] border-t border-b border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+          <div className="text-center max-w-3xl mx-auto space-y-3">
+            <span className="text-xs font-mono font-bold text-[#C6FC06] uppercase tracking-widest border border-[#C6FC06]/30 px-3 py-1 rounded-full bg-[#C6FC06]/10">
+              COMPLETE 4-PIECE PACKAGING ANATOMY
+            </span>
+            <h2 className="font-heading font-black text-3xl sm:text-4xl text-white">
+              ENGINEERED FOR DAILY RENEWAL. REFILL & REUSE.
+            </h2>
+            <p className="text-xs sm:text-sm text-gray-400 font-mono">
+              Single On-The-Go Stick Pouch • Permanent Machined Aluminum Tin • 30-CT Standup Foil Refill • Rigid Retail Display Box
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="p-6 rounded-3xl bg-[#131A26] border border-[#C6FC06]/30 space-y-4 shadow-xl">
+              <span className="text-[10px] font-mono font-bold text-[#C6FC06] tracking-widest uppercase">
+                01 / FORMULATION • CLEAN ENERGY
+              </span>
+              <h3 className="text-xl font-heading font-extrabold text-white">VYTAL Clean Energy (Sour Soursop Lime)</h3>
+              <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                <img src="/assets/pouches/full-suites/vytal-clean-energy-suite.jpg" alt="VYTAL Clean Energy Full 4-Piece Suite" className="w-full h-auto object-cover" />
+              </div>
+              <p className="text-xs text-gray-400 font-mono">200mg Natural Caffeine • Zero Nicotine • Zero Calories • Natural Soursop & Lime</p>
+            </div>
+
+            <div className="p-6 rounded-3xl bg-[#131A26] border border-[#00F0FF]/30 space-y-4 shadow-xl">
+              <span className="text-[10px] font-mono font-bold text-[#00F0FF] tracking-widest uppercase">
+                02 / FORMULATION • TIDAL MINERALS
+              </span>
+              <h3 className="text-xl font-heading font-extrabold text-white">VYTAL Tidal (Sea Moss Cucumber Lime)</h3>
+              <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                <img src="/assets/pouches/full-suites/vytal-tidal-sea-moss-suite.jpg" alt="VYTAL Tidal Sea Moss Full 4-Piece Suite" className="w-full h-auto object-cover" />
+              </div>
+              <p className="text-xs text-gray-400 font-mono">200mg Ocean Minerals • St. Lucia Wildcrafted Sea Moss • Intracellular Hydration</p>
+            </div>
+
+            <div className="p-6 rounded-3xl bg-[#131A26] border border-[#CDB8FF]/30 space-y-4 shadow-xl">
+              <span className="text-[10px] font-mono font-bold text-[#CDB8FF] tracking-widest uppercase">
+                03 / FORMULATION • NAD+ LONGEVITY
+              </span>
+              <h3 className="text-xl font-heading font-extrabold text-white">VYTAL NAD+ Support (Blue Soursop Yuzu)</h3>
+              <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                <img src="/assets/pouches/full-suites/vytal-nad-support-suite.jpg" alt="VYTAL NAD Support Full 4-Piece Suite" className="w-full h-auto object-cover" />
+              </div>
+              <p className="text-xs text-gray-400 font-mono">200mg NAD+ Precursors • Trans-Resveratrol • Blue Soursop & Yuzu Citrus</p>
+            </div>
+
+            <div className="p-6 rounded-3xl bg-[#131A26] border border-[#C6FC06]/30 space-y-4 shadow-xl">
+              <span className="text-[10px] font-mono font-bold text-[#C6FC06] tracking-widest uppercase">
+                04 / FORMULATION • HYDRATION ACID LIME
+              </span>
+              <h3 className="text-xl font-heading font-extrabold text-white">VYTAL Hydration (Acid Lime)</h3>
+              <div className="rounded-2xl overflow-hidden border border-gray-800 bg-black">
+                <img src="/assets/pouches/full-suites/vytal-hydration-acid-lime-suite.jpg" alt="VYTAL Hydration Acid Lime Full 4-Piece Suite" className="w-full h-auto object-cover" />
+              </div>
+              <p className="text-xs text-gray-400 font-mono">200mg Electrolytes • Pink Himalayan Salt • Magnesium & Potassium</p>
+            </div>
           </div>
         </div>
       </section>
