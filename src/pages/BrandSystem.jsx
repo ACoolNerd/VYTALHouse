@@ -9,6 +9,11 @@ const gallery = [
   ['Product Packaging', MASTER_OS_ASSETS.productPackaging],
   ['Digital + App', MASTER_OS_ASSETS.digitalAppEcosystem],
   ['Environmental Signage', MASTER_OS_ASSETS.environmentalSignage],
+  ['Pouch Collection Board', '/assets/brand/master-os/pouches-boards/01-pouch-collection-board.jpg'],
+  ['Refill Pouch Lineup', '/assets/brand/master-os/pouches-boards/02-refill-pouch-lineup.jpg'],
+  ['Master Brand System', '/assets/brand/master-os/pouches-boards/03-master-brand-system.jpg'],
+  ['Canisters & Tins Showcase', '/assets/brand/master-os/pouches-boards/04-canisters-tins-showcase.jpg'],
+  ['Master Pouch Ecosystem', '/assets/brand/master-os/pouches-boards/05-master-pouch-ecosystem.jpg'],
 ];
 
 export default function BrandSystem() {
